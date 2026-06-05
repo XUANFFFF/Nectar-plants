@@ -1,0 +1,20 @@
+{
+  "recordCount": 200,
+  "observerCount": 19,
+  "speciesCount": 25,
+  "familyCount": 19,
+  "cityCount": 4,
+  "countyCount": 32,
+  "habitatTypes": [
+    "人工环境",
+    "野生环境"
+  ],
+  "verificationStatuses": [
+    "已审核",
+    "待审核"
+  ],
+  "establishmentMeans": [
+    "人工养育",
+    "野生物种"
+  ]
+}
