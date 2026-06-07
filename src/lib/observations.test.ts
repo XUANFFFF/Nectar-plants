@@ -1,16 +1,22 @@
 import { describe, expect, it } from "vitest";
 import {
   buildGardenGroups,
+  buildCitySummaries,
   filterGardensByLayer,
   getCitySpotlights,
   getContributionForObserver,
+  getPlantSummaries,
+  getPrimaryMediaUrl,
 } from "./observations";
+import { buildBoundaryFeatures, normalizeCityName } from "./cityBoundaries";
 import type { Observation } from "./types";
 
 function record(overrides: Partial<Observation>): Observation {
   return {
     id: "id",
     mediaUrl: null,
+    mediaUrls: [],
+    sourceMediaUrls: [],
     originalFilename: null,
     observer: "示例志愿者A",
     observerId: "a",
@@ -116,5 +122,117 @@ describe("observation selectors", () => {
     ]);
 
     expect(cities[0].recentCount).toBe(2);
+  });
+
+  it("uses the first associated media URL as the primary image", () => {
+    expect(
+      getPrimaryMediaUrl(
+        record({
+          mediaUrl: "https://example.org/fallback.jpg",
+          mediaUrls: ["/media/local-one.jpg", "/media/local-two.jpg"],
+        }),
+      ),
+    ).toBe("/media/local-one.jpg");
+  });
+
+  it("prefers a cached associatedMedia image for plant guide representatives", () => {
+    const plants = getPlantSummaries([
+      record({
+        id: "new-demo",
+        chineseName: "马利筋",
+        eventDate: "2026-04-30T10:00:00",
+        mediaUrl: "https://example.org/demo.jpg",
+        mediaUrls: ["https://example.org/demo.jpg"],
+      }),
+      record({
+        id: "older-real",
+        chineseName: "马利筋",
+        eventDate: "2025-05-31T10:00:00",
+        mediaUrl: "/media/BIOGRID_522674_1.jpg",
+        mediaUrls: ["/media/BIOGRID_522674_1.jpg"],
+      }),
+    ]);
+
+    expect(plants[0].representative.id).toBe("older-real");
+    expect(getPrimaryMediaUrl(plants[0].representative)).toBe("/media/BIOGRID_522674_1.jpg");
+  });
+
+  it("normalizes Guangdong city names for matching boundaries and records", () => {
+    expect(normalizeCityName("广州市")).toBe("广州");
+    expect(normalizeCityName("潮州")).toBe("潮州");
+    expect(normalizeCityName("揭阳城区")).toBe("揭阳");
+  });
+
+  it("builds svg-ready boundary features from geojson polygons", () => {
+    const model = buildBoundaryFeatures({
+      type: "FeatureCollection",
+      features: [
+        {
+          type: "Feature",
+          properties: { name: "广州市" },
+          geometry: {
+            type: "Polygon",
+            coordinates: [
+              [
+                [113.0, 23.0],
+                [114.0, 23.0],
+                [114.0, 24.0],
+                [113.0, 24.0],
+                [113.0, 23.0],
+              ],
+            ],
+          },
+        },
+      ],
+    });
+
+    expect(model.features).toHaveLength(1);
+    expect(model.features[0].cityKey).toBe("广州");
+    expect(model.features[0].path).toContain("M");
+    expect(model.viewBox).toBe("0 0 1000 1000");
+    expect(model.projectPoint([113.0, 24.0])).toEqual({ x: 0, y: 0 });
+    expect(model.projectPoint([114.0, 23.0])).toEqual({ x: 1000, y: 1000 });
+  });
+
+  it("builds city summaries for the selected city view", () => {
+    const gardens = buildGardenGroups([
+      record({
+        id: "gz-1",
+        locationId: "gz-1",
+        city: "广州市",
+        county: "海珠区",
+        chineseName: "马利筋",
+        eventDate: "2026-04-30T10:00:00",
+      }),
+      record({
+        id: "gz-2",
+        locationId: "gz-2",
+        city: "广州",
+        county: "天河区",
+        chineseName: "龙船花",
+        eventDate: "2026-04-12T10:00:00",
+      }),
+      record({
+        id: "gz-3",
+        locationId: "gz-1",
+        city: "广州",
+        county: "海珠区",
+        chineseName: "假连翘",
+        eventDate: "2026-04-29T10:00:00",
+      }),
+    ]);
+
+    const summaries = buildCitySummaries(gardens);
+
+    expect(summaries).toHaveLength(1);
+    expect(summaries[0]).toMatchObject({
+      cityKey: "广州",
+      cityLabel: "广州市",
+      recordCount: 3,
+      gardenCount: 2,
+      speciesCount: 3,
+      countyCount: 2,
+    });
+    expect(summaries[0].topCounties[0]).toBe("海珠区");
   });
 });

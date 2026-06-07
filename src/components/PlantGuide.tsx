@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Camera, MapPin, X } from "lucide-react";
 import type { PlantSummary } from "../lib/types";
 import { formatDate } from "../lib/observations";
+import { ObservationImage } from "./ObservationImage";
 
 type PlantGuideProps = {
   plants: PlantSummary[];
@@ -24,18 +25,12 @@ export function PlantGuide({ plants }: PlantGuideProps) {
             onClick={() => setActive(plant)}
           >
             <div className="plant-thumb">
-              {plant.representative.mediaUrl ? (
-                <img
-                  src={plant.representative.mediaUrl}
-                  alt={`${plant.chineseName}照片`}
-                  loading="lazy"
-                  onError={(e) => {
-                    e.currentTarget.style.display = "none";
-                  }}
-                />
-              ) : (
-                thumbLabel(plant.chineseName)
-              )}
+              <ObservationImage
+                record={plant.representative}
+                alt={`${plant.chineseName}照片`}
+                fallbackClassName="image-fallback"
+                fallback={thumbLabel(plant.chineseName)}
+              />
             </div>
             <div className="plant-body">
               <h3>{plant.chineseName}</h3>
@@ -70,17 +65,12 @@ function PlantDetailModal({
           <X size={16} />
         </button>
         <div className="modal-photo">
-          {plant.representative.mediaUrl ? (
-            <img
-              src={plant.representative.mediaUrl}
-              alt={`${plant.chineseName}照片`}
-              onError={(e) => {
-                e.currentTarget.style.display = "none";
-              }}
-            />
-          ) : (
-            plant.chineseName.slice(0, 2)
-          )}
+          <ObservationImage
+            record={plant.representative}
+            alt={`${plant.chineseName}照片`}
+            fallbackClassName="image-fallback"
+            fallback={plant.chineseName.slice(0, 2)}
+          />
         </div>
         <h2>{plant.chineseName}</h2>
         <p className="modal-meta">
@@ -129,13 +119,12 @@ function PlantDetailModal({
           <div className="evidence-list">
             {plant.observations.slice(0, 4).map((record, index) => (
               <div className="ev" key={`${record.id}-${record.eventDate}-${index}`}>
-                {record.mediaUrl ? (
-                  <img
-                    src={record.mediaUrl}
+                {record.mediaUrls.length > 0 || record.mediaUrl ? (
+                  <ObservationImage
+                    record={record}
                     alt={plant.chineseName}
-                    onError={(e) => {
-                      e.currentTarget.style.display = "none";
-                    }}
+                    fallbackClassName="image-fallback"
+                    fallback={plant.chineseName.slice(0, 2)}
                   />
                 ) : (
                   <div

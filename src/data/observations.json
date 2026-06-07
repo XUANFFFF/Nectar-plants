@@ -1,7 +1,13 @@
 [
   {
     "id": "BIOGRID:522674",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1897/20250601/EH3XC4HnFA_1748730703.JPG!edfb9d",
+    "mediaUrl": "/media/BIOGRID_522674_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522674_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1897/20250601/EH3XC4HnFA_1748730703.JPG!edfb9d"
+    ],
     "originalFilename": "17487304664220.JPG",
     "observer": "李芬",
     "observerId": "1897",
@@ -44,7 +50,13 @@
   },
   {
     "id": "BIOGRID:522673",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1897/20250601/ZJRt8T2T8H_1748730701.JPG!d336b1",
+    "mediaUrl": "/media/BIOGRID_522673_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522673_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1897/20250601/ZJRt8T2T8H_1748730701.JPG!d336b1"
+    ],
     "originalFilename": "17487305419101.JPG",
     "observer": "李芬",
     "observerId": "1897",
@@ -87,7 +99,13 @@
   },
   {
     "id": "BIOGRID:522672",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1897/20250601/N4p1S1rJJk_1748730699.JPG!f661de",
+    "mediaUrl": "/media/BIOGRID_522672_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522672_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1897/20250601/N4p1S1rJJk_1748730699.JPG!f661de"
+    ],
     "originalFilename": "17487305787612.JPG",
     "observer": "李芬",
     "observerId": "1897",
@@ -130,7 +148,13 @@
   },
   {
     "id": "BIOGRID:522671",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1897/20250601/dKf1NhSGdQ_1748730697.JPG!1b0743",
+    "mediaUrl": "/media/BIOGRID_522671_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522671_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1897/20250601/dKf1NhSGdQ_1748730697.JPG!1b0743"
+    ],
     "originalFilename": "17487306332663.JPG",
     "observer": "李芬",
     "observerId": "1897",
@@ -173,7 +197,13 @@
   },
   {
     "id": "BIOGRID:522560",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/2572/20250531/c7tZjCcp8d_1748702376.jpg!be0f84",
+    "mediaUrl": "/media/BIOGRID_522560_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522560_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/2572/20250531/c7tZjCcp8d_1748702376.jpg!be0f84"
+    ],
     "originalFilename": "17487023094150.jpg",
     "observer": "吴雯婷",
     "observerId": "2572",
@@ -216,7 +246,15 @@
   },
   {
     "id": "BIOGRID:522468",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/s7Ji97YZtx_1748696514.jpg!13c757,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/Rr9W1k2zZj_1748696513.jpg!584333",
+    "mediaUrl": "/media/BIOGRID_522468_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522468_1.jpg",
+      "/media/BIOGRID_522468_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/s7Ji97YZtx_1748696514.jpg!13c757",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/Rr9W1k2zZj_1748696513.jpg!584333"
+    ],
     "originalFilename": "174869550064724.jpg,174869550069125.jpg",
     "observer": "肖玉梅",
     "observerId": "1894",
@@ -259,7 +297,17 @@
   },
   {
     "id": "BIOGRID:522467",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/b6tAGka7hG_1748696512.jpg!882b8f,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/k56rCrQxza_1748696512.jpg!5ebf40,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/RDH7KPpKPf_1748696512.jpg!ede161",
+    "mediaUrl": "/media/BIOGRID_522467_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522467_1.jpg",
+      "/media/BIOGRID_522467_2.jpg",
+      "/media/BIOGRID_522467_3.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/b6tAGka7hG_1748696512.jpg!882b8f",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/k56rCrQxza_1748696512.jpg!5ebf40",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/RDH7KPpKPf_1748696512.jpg!ede161"
+    ],
     "originalFilename": "174869645366326.jpg,174869645370727.jpg,174869645377328.jpg",
     "observer": "肖玉梅",
     "observerId": "1894",
@@ -302,7 +350,15 @@
   },
   {
     "id": "BIOGRID:522082",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/A89C5TjyG8_1748679859.jpg!121f77,https://biogrid.scbg.ac.cn/files/photo/1881/20250531/3w6ainYtKt_1748679859.jpg!8aaf0c",
+    "mediaUrl": "/media/BIOGRID_522082_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522082_1.jpg",
+      "/media/BIOGRID_522082_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/A89C5TjyG8_1748679859.jpg!121f77",
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/3w6ainYtKt_1748679859.jpg!8aaf0c"
+    ],
     "originalFilename": "174867981197340.jpg,174867981837441.jpg",
     "observer": "赤小豆",
     "observerId": "1881,0",
@@ -345,7 +401,15 @@
   },
   {
     "id": "BIOGRID:522081",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/J9sCDabMFx_1748679715.jpg!8a157e,https://biogrid.scbg.ac.cn/files/photo/1881/20250531/ktHrWXXmcC_1748679716.jpg!7a7d42",
+    "mediaUrl": "/media/BIOGRID_522081_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522081_1.jpg",
+      "/media/BIOGRID_522081_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/J9sCDabMFx_1748679715.jpg!8a157e",
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/ktHrWXXmcC_1748679716.jpg!7a7d42"
+    ],
     "originalFilename": "174867966450635.jpg,174867967998536.jpg",
     "observer": "赤小豆",
     "observerId": "1881,0",
@@ -388,7 +452,15 @@
   },
   {
     "id": "BIOGRID:522079",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/1jtnXtX25f_1748679397.jpg!c4022d,https://biogrid.scbg.ac.cn/files/photo/1881/20250531/xrd1JxbSGZ_1748679490.jpg!b92cb6",
+    "mediaUrl": "/media/BIOGRID_522079_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522079_1.jpg",
+      "/media/BIOGRID_522079_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/1jtnXtX25f_1748679397.jpg!c4022d",
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/xrd1JxbSGZ_1748679490.jpg!b92cb6"
+    ],
     "originalFilename": "174865844771014.jpg,174867946916532.jpg",
     "observer": "赤小豆",
     "observerId": "1881,0",
@@ -430,7 +502,15 @@
   },
   {
     "id": "BIOGRID:522078",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/J76fCZ3m3k_1748679390.jpg!adc7cb,https://biogrid.scbg.ac.cn/files/photo/1881/20250531/175nhT9r5f_1748679390.jpg!9b1bf2",
+    "mediaUrl": "/media/BIOGRID_522078_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522078_1.jpg",
+      "/media/BIOGRID_522078_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/J76fCZ3m3k_1748679390.jpg!adc7cb",
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/175nhT9r5f_1748679390.jpg!9b1bf2"
+    ],
     "originalFilename": "174865825512311.jpg,174865828891213.jpg",
     "observer": "赤小豆",
     "observerId": "1881,0",
@@ -473,7 +553,15 @@
   },
   {
     "id": "BIOGRID:522077",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/6CMNP9Z4MM_1748679357.jpg!9f8923,https://biogrid.scbg.ac.cn/files/photo/1881/20250531/zJjYd9KyT7_1748679358.jpg!635844",
+    "mediaUrl": "/media/BIOGRID_522077_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522077_1.jpg",
+      "/media/BIOGRID_522077_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/6CMNP9Z4MM_1748679357.jpg!9f8923",
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/zJjYd9KyT7_1748679358.jpg!635844"
+    ],
     "originalFilename": "17486581537649.jpg,174867934296331.jpg",
     "observer": "赤小豆",
     "observerId": "1881,0",
@@ -516,7 +604,15 @@
   },
   {
     "id": "BIOGRID:522076",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/RAhJQw1ZSp_1748679316.jpg!34ed5a,https://biogrid.scbg.ac.cn/files/photo/1881/20250531/jrATSJ8Jm3_1748679316.jpg!ff1830",
+    "mediaUrl": "/media/BIOGRID_522076_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522076_1.jpg",
+      "/media/BIOGRID_522076_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/RAhJQw1ZSp_1748679316.jpg!34ed5a",
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/jrATSJ8Jm3_1748679316.jpg!ff1830"
+    ],
     "originalFilename": "17486577188116.jpg,174867930183230.jpg",
     "observer": "赤小豆",
     "observerId": "1881,0",
@@ -559,7 +655,15 @@
   },
   {
     "id": "BIOGRID:522075",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/HhcriGa75M_1748679283.jpg!74f48b,https://biogrid.scbg.ac.cn/files/photo/1881/20250531/mbnjZ3Es1Y_1748679283.jpg!c16d66",
+    "mediaUrl": "/media/BIOGRID_522075_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522075_1.jpg",
+      "/media/BIOGRID_522075_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/HhcriGa75M_1748679283.jpg!74f48b",
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/mbnjZ3Es1Y_1748679283.jpg!c16d66"
+    ],
     "originalFilename": "17486574572965.jpg,174867926860829.jpg",
     "observer": "赤小豆",
     "observerId": "1881,0",
@@ -602,7 +706,15 @@
   },
   {
     "id": "BIOGRID:522074",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/A75tHsTP7h_1748679254.jpg!b2551d,https://biogrid.scbg.ac.cn/files/photo/1881/20250531/hpmnG7w21h_1748679255.jpg!3e5662",
+    "mediaUrl": "/media/BIOGRID_522074_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522074_1.jpg",
+      "/media/BIOGRID_522074_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/A75tHsTP7h_1748679254.jpg!b2551d",
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/hpmnG7w21h_1748679255.jpg!3e5662"
+    ],
     "originalFilename": "17486573701314.jpg,174867923501628.jpg",
     "observer": "赤小豆",
     "observerId": "1881,0",
@@ -645,7 +757,15 @@
   },
   {
     "id": "BIOGRID:522073",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/RrWiM2aRd7_1748679212.jpg!de4b89,https://biogrid.scbg.ac.cn/files/photo/1881/20250531/R9CjXPbkKe_1748679212.jpg!8bbfe3",
+    "mediaUrl": "/media/BIOGRID_522073_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522073_1.jpg",
+      "/media/BIOGRID_522073_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/RrWiM2aRd7_1748679212.jpg!de4b89",
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/R9CjXPbkKe_1748679212.jpg!8bbfe3"
+    ],
     "originalFilename": "17486578255477.jpg,17486579097688.jpg",
     "observer": "赤小豆",
     "observerId": "1881,0",
@@ -688,7 +808,19 @@
   },
   {
     "id": "BIOGRID:522072",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/y1DtcbyCwt_1748678908.jpg!a3bd58,https://biogrid.scbg.ac.cn/files/photo/1881/20250531/wMiGD6KtZM_1748678907.jpg!44f673,https://biogrid.scbg.ac.cn/files/photo/1881/20250531/TXwiSsFfyt_1748678907.jpg!d8c622,https://biogrid.scbg.ac.cn/files/photo/1881/20250531/wyzPCYAnYr_1748678910.jpg!299384,https://biogrid.scbg.ac.cn/files/photo/1881/20250531/3dEpcXaMSn_1748678910.jpg!a87086",
+    "mediaUrl": "/media/BIOGRID_522072_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522072_1.jpg",
+      "/media/BIOGRID_522072_2.jpg",
+      "/media/BIOGRID_522072_3.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/y1DtcbyCwt_1748678908.jpg!a3bd58",
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/wMiGD6KtZM_1748678907.jpg!44f673",
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/TXwiSsFfyt_1748678907.jpg!d8c622",
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/wyzPCYAnYr_1748678910.jpg!299384",
+      "https://biogrid.scbg.ac.cn/files/photo/1881/20250531/3dEpcXaMSn_1748678910.jpg!a87086"
+    ],
     "originalFilename": "174867884043523.jpg,174867887025224.jpg,174867887030225.jpg,174867887037726.jpg,174867887047127.jpg",
     "observer": "赤小豆",
     "observerId": "1881,0",
@@ -731,7 +863,15 @@
   },
   {
     "id": "BIOGRID:522045",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/Azsyy4zFap_1748676992.jpg!e5f83e,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/tMB8wkHE5x_1748676992.jpg!846c66",
+    "mediaUrl": "/media/BIOGRID_522045_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522045_1.jpg",
+      "/media/BIOGRID_522045_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/Azsyy4zFap_1748676992.jpg!e5f83e",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/tMB8wkHE5x_1748676992.jpg!846c66"
+    ],
     "originalFilename": "17423062935410.jpg,17423062935841.jpg",
     "observer": "肖玉梅",
     "observerId": "1894",
@@ -774,7 +914,13 @@
   },
   {
     "id": "BIOGRID:522044",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/wmBMfk72D8_1748676991.jpg!701821",
+    "mediaUrl": "/media/BIOGRID_522044_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522044_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/wmBMfk72D8_1748676991.jpg!701821"
+    ],
     "originalFilename": "17423063357812.jpg",
     "observer": "肖玉梅",
     "observerId": "1894",
@@ -817,7 +963,17 @@
   },
   {
     "id": "BIOGRID:522043",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/jdDTs9ajkE_1748676989.jpg!03418f,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/5GGTnrnjTh_1748676989.jpg!95d33b,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/QiCrz5R3bX_1748676991.jpg!4a5ba0",
+    "mediaUrl": "/media/BIOGRID_522043_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522043_1.jpg",
+      "/media/BIOGRID_522043_2.jpg",
+      "/media/BIOGRID_522043_3.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/jdDTs9ajkE_1748676989.jpg!03418f",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/5GGTnrnjTh_1748676989.jpg!95d33b",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/QiCrz5R3bX_1748676991.jpg!4a5ba0"
+    ],
     "originalFilename": "17423063719743.jpg,17423063720334.jpg,17423063721015.jpg",
     "observer": "肖玉梅",
     "observerId": "1894",
@@ -860,7 +1016,15 @@
   },
   {
     "id": "BIOGRID:522042",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/Ph15mSJdA3_1748676988.jpg!951945,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/PDcWiibYR8_1748676988.jpg!8dcd4f",
+    "mediaUrl": "/media/BIOGRID_522042_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522042_1.jpg",
+      "/media/BIOGRID_522042_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/Ph15mSJdA3_1748676988.jpg!951945",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/PDcWiibYR8_1748676988.jpg!8dcd4f"
+    ],
     "originalFilename": "17430838957880.jpg,17430838958331.jpg",
     "observer": "肖玉梅",
     "observerId": "1894",
@@ -902,7 +1066,13 @@
   },
   {
     "id": "BIOGRID:522041",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/pcYRa2cnMh_1748676987.jpg!1cc2b3",
+    "mediaUrl": "/media/BIOGRID_522041_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522041_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/pcYRa2cnMh_1748676987.jpg!1cc2b3"
+    ],
     "originalFilename": "17430840814262.jpg",
     "observer": "肖玉梅",
     "observerId": "1894",
@@ -945,7 +1115,15 @@
   },
   {
     "id": "BIOGRID:522040",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/FWr7WjYPx6_1748676986.jpg!14b265,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/85h57Fh7KR_1748676987.jpg!b2238d",
+    "mediaUrl": "/media/BIOGRID_522040_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522040_1.jpg",
+      "/media/BIOGRID_522040_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/FWr7WjYPx6_1748676986.jpg!14b265",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/85h57Fh7KR_1748676987.jpg!b2238d"
+    ],
     "originalFilename": "17442085177050.jpg,17442085177541.jpg",
     "observer": "肖玉梅",
     "observerId": "1894",
@@ -988,7 +1166,17 @@
   },
   {
     "id": "BIOGRID:522039",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/mtNWcMePMW_1748676985.jpg!f5c728,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/4itK2sMDhY_1748676986.jpg!4b1838,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/mdaEpnKFKM_1748676985.jpg!67795b",
+    "mediaUrl": "/media/BIOGRID_522039_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522039_1.jpg",
+      "/media/BIOGRID_522039_2.jpg",
+      "/media/BIOGRID_522039_3.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/mtNWcMePMW_1748676985.jpg!f5c728",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/4itK2sMDhY_1748676986.jpg!4b1838",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/mdaEpnKFKM_1748676985.jpg!67795b"
+    ],
     "originalFilename": "17442085976572.jpg,17442085976983.jpg,17442085977654.jpg",
     "observer": "肖玉梅",
     "observerId": "1894",
@@ -1031,7 +1219,15 @@
   },
   {
     "id": "BIOGRID:522038",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/kWhSYSG7dK_1748676983.jpg!8e1610,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/SXDSQbxHaH_1748676984.jpg!8f4ccd",
+    "mediaUrl": "/media/BIOGRID_522038_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522038_1.jpg",
+      "/media/BIOGRID_522038_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/kWhSYSG7dK_1748676983.jpg!8e1610",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/SXDSQbxHaH_1748676984.jpg!8f4ccd"
+    ],
     "originalFilename": "17442086454145.jpg,17442086454586.jpg",
     "observer": "肖玉梅",
     "observerId": "1894",
@@ -1073,7 +1269,17 @@
   },
   {
     "id": "BIOGRID:522037",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/bkKndbjNRH_1748676983.jpg!8dc8b0,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/e3jjiCHmsy_1748676983.jpg!d17b62,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/ThdjsWrFeZ_1748676983.jpg!e16909",
+    "mediaUrl": "/media/BIOGRID_522037_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522037_1.jpg",
+      "/media/BIOGRID_522037_2.jpg",
+      "/media/BIOGRID_522037_3.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/bkKndbjNRH_1748676983.jpg!8dc8b0",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/e3jjiCHmsy_1748676983.jpg!d17b62",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/ThdjsWrFeZ_1748676983.jpg!e16909"
+    ],
     "originalFilename": "17462327013190.jpg,17462327013791.jpg,17462327014302.jpg",
     "observer": "肖玉梅",
     "observerId": "1894",
@@ -1116,7 +1322,15 @@
   },
   {
     "id": "BIOGRID:522036",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/2tGZWsXNNp_1748676981.jpg!b19206,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/p6aRQEXBH4_1748676982.jpg!49a266",
+    "mediaUrl": "/media/BIOGRID_522036_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522036_1.jpg",
+      "/media/BIOGRID_522036_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/2tGZWsXNNp_1748676981.jpg!b19206",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/p6aRQEXBH4_1748676982.jpg!49a266"
+    ],
     "originalFilename": "17463251931331.jpg,17463251932052.jpg",
     "observer": "肖玉梅",
     "observerId": "1894",
@@ -1159,7 +1373,15 @@
   },
   {
     "id": "BIOGRID:522035",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/kcTHmAYxbs_1748676979.jpg!8d91cc,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/ATzmQ4D5MD_1748676979.jpg!42a4e4",
+    "mediaUrl": "/media/BIOGRID_522035_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522035_1.jpg",
+      "/media/BIOGRID_522035_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/kcTHmAYxbs_1748676979.jpg!8d91cc",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/ATzmQ4D5MD_1748676979.jpg!42a4e4"
+    ],
     "originalFilename": "17472147492330.jpg,17472147492791.jpg",
     "observer": "肖玉梅",
     "observerId": "1894",
@@ -1202,7 +1424,15 @@
   },
   {
     "id": "BIOGRID:522034",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/AFWCChXydM_1748676977.jpg!d2bc53,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/f5PXbiy7zA_1748676979.jpg!5487d7",
+    "mediaUrl": "/media/BIOGRID_522034_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522034_1.jpg",
+      "/media/BIOGRID_522034_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/AFWCChXydM_1748676977.jpg!d2bc53",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/f5PXbiy7zA_1748676979.jpg!5487d7"
+    ],
     "originalFilename": "17472148161033.jpg,17472148161614.jpg",
     "observer": "肖玉梅",
     "observerId": "1894",
@@ -1245,7 +1475,15 @@
   },
   {
     "id": "BIOGRID:522033",
-    "mediaUrl": "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/rRQdisRcmY_1748676976.jpg!43feb3,https://biogrid.scbg.ac.cn/files/photo/1894/20250531/yeFF4aET9A_1748676977.jpg!d2fb73",
+    "mediaUrl": "/media/BIOGRID_522033_1.jpg",
+    "mediaUrls": [
+      "/media/BIOGRID_522033_1.jpg",
+      "/media/BIOGRID_522033_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/rRQdisRcmY_1748676976.jpg!43feb3",
+      "https://biogrid.scbg.ac.cn/files/photo/1894/20250531/yeFF4aET9A_1748676977.jpg!d2fb73"
+    ],
     "originalFilename": "17472148546945.jpg,17472148547516.jpg",
     "observer": "肖玉梅",
     "observerId": "1894",
@@ -1289,6 +1527,12 @@
   {
     "id": "DEMO:VOL:0001",
     "mediaUrl": "https://example.org/demo-media/volunteer/0001.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/0001.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/0001.jpg"
+    ],
     "originalFilename": "demo_volunteer_0001.jpg",
     "observer": "示例志愿者O",
     "observerId": "9015",
@@ -1331,7 +1575,15 @@
   },
   {
     "id": "DEMO:VOL:0002",
-    "mediaUrl": "https://example.org/demo-media/volunteer/0002.jpg,https://example.org/demo-media/volunteer/0002_b.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/0002.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/0002.jpg",
+      "https://example.org/demo-media/volunteer/0002_b.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/0002.jpg",
+      "https://example.org/demo-media/volunteer/0002_b.jpg"
+    ],
     "originalFilename": "demo_volunteer_0002.jpg,demo_volunteer_0002_b.jpg",
     "observer": "示例志愿者D",
     "observerId": "9004",
@@ -1375,6 +1627,12 @@
   {
     "id": "DEMO:VOL:0003",
     "mediaUrl": "https://example.org/demo-media/volunteer/0003.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/0003.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/0003.jpg"
+    ],
     "originalFilename": "demo_volunteer_0003.jpg",
     "observer": "示例志愿者E",
     "observerId": "9005",
@@ -1418,6 +1676,12 @@
   {
     "id": "DEMO:VOL:0004",
     "mediaUrl": "https://example.org/demo-media/volunteer/0004.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/0004.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/0004.jpg"
+    ],
     "originalFilename": "demo_volunteer_0004.jpg",
     "observer": "示例志愿者J",
     "observerId": "9010",
@@ -1461,6 +1725,12 @@
   {
     "id": "DEMO:VOL:0005",
     "mediaUrl": "https://example.org/demo-media/volunteer/0005.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/0005.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/0005.jpg"
+    ],
     "originalFilename": "demo_volunteer_0005.jpg",
     "observer": "示例志愿者K",
     "observerId": "9011",
@@ -1504,6 +1774,12 @@
   {
     "id": "DEMO:VOL:0006",
     "mediaUrl": "https://example.org/demo-media/volunteer/0006.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/0006.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/0006.jpg"
+    ],
     "originalFilename": "demo_volunteer_0006.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -1547,6 +1823,12 @@
   {
     "id": "DEMO:VOL:0007",
     "mediaUrl": "https://example.org/demo-media/volunteer/0007.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/0007.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/0007.jpg"
+    ],
     "originalFilename": "demo_volunteer_0007.jpg",
     "observer": "示例志愿者N",
     "observerId": "9014",
@@ -1590,6 +1872,12 @@
   {
     "id": "DEMO:VOL:0008",
     "mediaUrl": "https://example.org/demo-media/volunteer/0008.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/0008.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/0008.jpg"
+    ],
     "originalFilename": "demo_volunteer_0008.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -1633,6 +1921,12 @@
   {
     "id": "DEMO:VOL:0009",
     "mediaUrl": "https://example.org/demo-media/volunteer/0009.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/0009.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/0009.jpg"
+    ],
     "originalFilename": "demo_volunteer_0009.jpg",
     "observer": "示例志愿者N",
     "observerId": "9014",
@@ -1676,6 +1970,12 @@
   {
     "id": "DEMO:VOL:0010",
     "mediaUrl": "https://example.org/demo-media/volunteer/0010.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/0010.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/0010.jpg"
+    ],
     "originalFilename": "demo_volunteer_0010.jpg",
     "observer": "示例志愿者D",
     "observerId": "9004",
@@ -1718,7 +2018,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0001",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0011_1.jpg,https://example.org/demo-media/volunteer/batch_0011_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0011_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0011_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0011_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0011_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0011_2.jpg"
+    ],
     "originalFilename": "demo_batch_0011_1.jpg,demo_batch_0011_2.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -1762,6 +2070,12 @@
   {
     "id": "DEMO:VOL:BATCH:0001",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0012_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0012_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0012_1.jpg"
+    ],
     "originalFilename": "demo_batch_0012_1.jpg",
     "observer": "示例志愿者H",
     "observerId": "9008",
@@ -1805,6 +2119,12 @@
   {
     "id": "DEMO:VOL:BATCH:0001",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0013_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0013_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0013_1.jpg"
+    ],
     "originalFilename": "demo_batch_0013_1.jpg",
     "observer": "示例志愿者K",
     "observerId": "9011",
@@ -1848,6 +2168,12 @@
   {
     "id": "DEMO:VOL:BATCH:0001",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0014_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0014_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0014_1.jpg"
+    ],
     "originalFilename": "demo_batch_0014_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -1891,6 +2217,12 @@
   {
     "id": "DEMO:VOL:BATCH:0002",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0015_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0015_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0015_1.jpg"
+    ],
     "originalFilename": "demo_batch_0015_1.jpg",
     "observer": "示例志愿者M",
     "observerId": "9013",
@@ -1934,6 +2266,12 @@
   {
     "id": "DEMO:VOL:BATCH:0002",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0016_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0016_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0016_1.jpg"
+    ],
     "originalFilename": "demo_batch_0016_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -1977,6 +2315,12 @@
   {
     "id": "DEMO:VOL:BATCH:0002",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0017_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0017_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0017_1.jpg"
+    ],
     "originalFilename": "demo_batch_0017_1.jpg",
     "observer": "示例志愿者F",
     "observerId": "9006",
@@ -2020,6 +2364,12 @@
   {
     "id": "DEMO:VOL:BATCH:0002",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0018_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0018_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0018_1.jpg"
+    ],
     "originalFilename": "demo_batch_0018_1.jpg",
     "observer": "示例志愿者N",
     "observerId": "9014",
@@ -2063,6 +2413,12 @@
   {
     "id": "DEMO:VOL:BATCH:0003",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0019_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0019_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0019_1.jpg"
+    ],
     "originalFilename": "demo_batch_0019_1.jpg",
     "observer": "示例志愿者K",
     "observerId": "9011",
@@ -2105,7 +2461,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0003",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0020_1.jpg,https://example.org/demo-media/volunteer/batch_0020_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0020_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0020_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0020_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0020_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0020_2.jpg"
+    ],
     "originalFilename": "demo_batch_0020_1.jpg,demo_batch_0020_2.jpg",
     "observer": "示例志愿者K",
     "observerId": "9011",
@@ -2149,6 +2513,12 @@
   {
     "id": "DEMO:VOL:BATCH:0003",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0021_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0021_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0021_1.jpg"
+    ],
     "originalFilename": "demo_batch_0021_1.jpg",
     "observer": "示例志愿者I",
     "observerId": "9009",
@@ -2192,6 +2562,12 @@
   {
     "id": "DEMO:VOL:BATCH:0003",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0022_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0022_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0022_1.jpg"
+    ],
     "originalFilename": "demo_batch_0022_1.jpg",
     "observer": "示例志愿者N",
     "observerId": "9014",
@@ -2235,6 +2611,12 @@
   {
     "id": "DEMO:VOL:BATCH:0004",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0023_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0023_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0023_1.jpg"
+    ],
     "originalFilename": "demo_batch_0023_1.jpg",
     "observer": "示例志愿者H",
     "observerId": "9008",
@@ -2278,6 +2660,12 @@
   {
     "id": "DEMO:VOL:BATCH:0004",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0024_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0024_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0024_1.jpg"
+    ],
     "originalFilename": "demo_batch_0024_1.jpg",
     "observer": "示例志愿者E",
     "observerId": "9005",
@@ -2321,6 +2709,12 @@
   {
     "id": "DEMO:VOL:BATCH:0004",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0025_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0025_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0025_1.jpg"
+    ],
     "originalFilename": "demo_batch_0025_1.jpg",
     "observer": "示例志愿者I",
     "observerId": "9009",
@@ -2364,6 +2758,12 @@
   {
     "id": "DEMO:VOL:BATCH:0004",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0026_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0026_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0026_1.jpg"
+    ],
     "originalFilename": "demo_batch_0026_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -2407,6 +2807,12 @@
   {
     "id": "DEMO:VOL:BATCH:0005",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0027_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0027_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0027_1.jpg"
+    ],
     "originalFilename": "demo_batch_0027_1.jpg",
     "observer": "示例志愿者F",
     "observerId": "9006",
@@ -2450,6 +2856,12 @@
   {
     "id": "DEMO:VOL:BATCH:0005",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0028_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0028_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0028_1.jpg"
+    ],
     "originalFilename": "demo_batch_0028_1.jpg",
     "observer": "示例志愿者L",
     "observerId": "9012",
@@ -2492,7 +2904,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0005",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0029_1.jpg,https://example.org/demo-media/volunteer/batch_0029_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0029_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0029_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0029_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0029_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0029_2.jpg"
+    ],
     "originalFilename": "demo_batch_0029_1.jpg,demo_batch_0029_2.jpg",
     "observer": "示例志愿者O",
     "observerId": "9015",
@@ -2536,6 +2956,12 @@
   {
     "id": "DEMO:VOL:BATCH:0005",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0030_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0030_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0030_1.jpg"
+    ],
     "originalFilename": "demo_batch_0030_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -2579,6 +3005,12 @@
   {
     "id": "DEMO:VOL:BATCH:0006",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0031_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0031_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0031_1.jpg"
+    ],
     "originalFilename": "demo_batch_0031_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -2622,6 +3054,12 @@
   {
     "id": "DEMO:VOL:BATCH:0006",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0032_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0032_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0032_1.jpg"
+    ],
     "originalFilename": "demo_batch_0032_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -2665,6 +3103,12 @@
   {
     "id": "DEMO:VOL:BATCH:0006",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0033_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0033_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0033_1.jpg"
+    ],
     "originalFilename": "demo_batch_0033_1.jpg",
     "observer": "示例志愿者L",
     "observerId": "9012",
@@ -2708,6 +3152,12 @@
   {
     "id": "DEMO:VOL:BATCH:0006",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0034_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0034_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0034_1.jpg"
+    ],
     "originalFilename": "demo_batch_0034_1.jpg",
     "observer": "示例志愿者M",
     "observerId": "9013",
@@ -2751,6 +3201,12 @@
   {
     "id": "DEMO:VOL:BATCH:0007",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0035_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0035_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0035_1.jpg"
+    ],
     "originalFilename": "demo_batch_0035_1.jpg",
     "observer": "示例志愿者O",
     "observerId": "9015",
@@ -2794,6 +3250,12 @@
   {
     "id": "DEMO:VOL:BATCH:0007",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0036_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0036_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0036_1.jpg"
+    ],
     "originalFilename": "demo_batch_0036_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -2837,6 +3299,12 @@
   {
     "id": "DEMO:VOL:BATCH:0007",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0037_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0037_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0037_1.jpg"
+    ],
     "originalFilename": "demo_batch_0037_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -2879,7 +3347,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0007",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0038_1.jpg,https://example.org/demo-media/volunteer/batch_0038_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0038_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0038_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0038_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0038_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0038_2.jpg"
+    ],
     "originalFilename": "demo_batch_0038_1.jpg,demo_batch_0038_2.jpg",
     "observer": "示例志愿者K",
     "observerId": "9011",
@@ -2923,6 +3399,12 @@
   {
     "id": "DEMO:VOL:BATCH:0008",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0039_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0039_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0039_1.jpg"
+    ],
     "originalFilename": "demo_batch_0039_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -2966,6 +3448,12 @@
   {
     "id": "DEMO:VOL:BATCH:0008",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0040_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0040_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0040_1.jpg"
+    ],
     "originalFilename": "demo_batch_0040_1.jpg",
     "observer": "示例志愿者H",
     "observerId": "9008",
@@ -3009,6 +3497,12 @@
   {
     "id": "DEMO:VOL:BATCH:0008",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0041_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0041_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0041_1.jpg"
+    ],
     "originalFilename": "demo_batch_0041_1.jpg",
     "observer": "示例志愿者G",
     "observerId": "9007",
@@ -3052,6 +3546,12 @@
   {
     "id": "DEMO:VOL:BATCH:0008",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0042_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0042_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0042_1.jpg"
+    ],
     "originalFilename": "demo_batch_0042_1.jpg",
     "observer": "示例志愿者J",
     "observerId": "9010",
@@ -3095,6 +3595,12 @@
   {
     "id": "DEMO:VOL:BATCH:0009",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0043_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0043_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0043_1.jpg"
+    ],
     "originalFilename": "demo_batch_0043_1.jpg",
     "observer": "示例志愿者N",
     "observerId": "9014",
@@ -3138,6 +3644,12 @@
   {
     "id": "DEMO:VOL:BATCH:0009",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0044_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0044_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0044_1.jpg"
+    ],
     "originalFilename": "demo_batch_0044_1.jpg",
     "observer": "示例志愿者G",
     "observerId": "9007",
@@ -3181,6 +3693,12 @@
   {
     "id": "DEMO:VOL:BATCH:0009",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0045_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0045_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0045_1.jpg"
+    ],
     "originalFilename": "demo_batch_0045_1.jpg",
     "observer": "示例志愿者M",
     "observerId": "9013",
@@ -3224,6 +3742,12 @@
   {
     "id": "DEMO:VOL:BATCH:0009",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0046_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0046_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0046_1.jpg"
+    ],
     "originalFilename": "demo_batch_0046_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -3266,7 +3790,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0010",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0047_1.jpg,https://example.org/demo-media/volunteer/batch_0047_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0047_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0047_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0047_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0047_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0047_2.jpg"
+    ],
     "originalFilename": "demo_batch_0047_1.jpg,demo_batch_0047_2.jpg",
     "observer": "示例志愿者L",
     "observerId": "9012",
@@ -3310,6 +3842,12 @@
   {
     "id": "DEMO:VOL:BATCH:0010",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0048_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0048_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0048_1.jpg"
+    ],
     "originalFilename": "demo_batch_0048_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -3353,6 +3891,12 @@
   {
     "id": "DEMO:VOL:BATCH:0010",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0049_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0049_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0049_1.jpg"
+    ],
     "originalFilename": "demo_batch_0049_1.jpg",
     "observer": "示例志愿者M",
     "observerId": "9013",
@@ -3396,6 +3940,12 @@
   {
     "id": "DEMO:VOL:BATCH:0010",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0050_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0050_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0050_1.jpg"
+    ],
     "originalFilename": "demo_batch_0050_1.jpg",
     "observer": "示例志愿者M",
     "observerId": "9013",
@@ -3439,6 +3989,12 @@
   {
     "id": "DEMO:VOL:BATCH:0011",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0051_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0051_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0051_1.jpg"
+    ],
     "originalFilename": "demo_batch_0051_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -3482,6 +4038,12 @@
   {
     "id": "DEMO:VOL:BATCH:0011",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0052_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0052_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0052_1.jpg"
+    ],
     "originalFilename": "demo_batch_0052_1.jpg",
     "observer": "示例志愿者K",
     "observerId": "9011",
@@ -3525,6 +4087,12 @@
   {
     "id": "DEMO:VOL:BATCH:0011",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0053_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0053_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0053_1.jpg"
+    ],
     "originalFilename": "demo_batch_0053_1.jpg",
     "observer": "示例志愿者N",
     "observerId": "9014",
@@ -3568,6 +4136,12 @@
   {
     "id": "DEMO:VOL:BATCH:0011",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0054_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0054_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0054_1.jpg"
+    ],
     "originalFilename": "demo_batch_0054_1.jpg",
     "observer": "示例志愿者H",
     "observerId": "9008",
@@ -3611,6 +4185,12 @@
   {
     "id": "DEMO:VOL:BATCH:0012",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0055_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0055_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0055_1.jpg"
+    ],
     "originalFilename": "demo_batch_0055_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -3653,7 +4233,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0012",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0056_1.jpg,https://example.org/demo-media/volunteer/batch_0056_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0056_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0056_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0056_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0056_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0056_2.jpg"
+    ],
     "originalFilename": "demo_batch_0056_1.jpg,demo_batch_0056_2.jpg",
     "observer": "示例志愿者N",
     "observerId": "9014",
@@ -3697,6 +4285,12 @@
   {
     "id": "DEMO:VOL:BATCH:0012",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0057_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0057_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0057_1.jpg"
+    ],
     "originalFilename": "demo_batch_0057_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -3740,6 +4334,12 @@
   {
     "id": "DEMO:VOL:BATCH:0012",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0058_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0058_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0058_1.jpg"
+    ],
     "originalFilename": "demo_batch_0058_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -3783,6 +4383,12 @@
   {
     "id": "DEMO:VOL:BATCH:0013",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0059_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0059_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0059_1.jpg"
+    ],
     "originalFilename": "demo_batch_0059_1.jpg",
     "observer": "示例志愿者O",
     "observerId": "9015",
@@ -3826,6 +4432,12 @@
   {
     "id": "DEMO:VOL:BATCH:0013",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0060_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0060_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0060_1.jpg"
+    ],
     "originalFilename": "demo_batch_0060_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -3869,6 +4481,12 @@
   {
     "id": "DEMO:VOL:BATCH:0013",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0061_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0061_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0061_1.jpg"
+    ],
     "originalFilename": "demo_batch_0061_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -3912,6 +4530,12 @@
   {
     "id": "DEMO:VOL:BATCH:0013",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0062_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0062_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0062_1.jpg"
+    ],
     "originalFilename": "demo_batch_0062_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -3955,6 +4579,12 @@
   {
     "id": "DEMO:VOL:BATCH:0014",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0063_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0063_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0063_1.jpg"
+    ],
     "originalFilename": "demo_batch_0063_1.jpg",
     "observer": "示例志愿者F",
     "observerId": "9006",
@@ -3998,6 +4628,12 @@
   {
     "id": "DEMO:VOL:BATCH:0014",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0064_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0064_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0064_1.jpg"
+    ],
     "originalFilename": "demo_batch_0064_1.jpg",
     "observer": "示例志愿者L",
     "observerId": "9012",
@@ -4040,7 +4676,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0014",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0065_1.jpg,https://example.org/demo-media/volunteer/batch_0065_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0065_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0065_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0065_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0065_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0065_2.jpg"
+    ],
     "originalFilename": "demo_batch_0065_1.jpg,demo_batch_0065_2.jpg",
     "observer": "示例志愿者L",
     "observerId": "9012",
@@ -4084,6 +4728,12 @@
   {
     "id": "DEMO:VOL:BATCH:0014",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0066_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0066_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0066_1.jpg"
+    ],
     "originalFilename": "demo_batch_0066_1.jpg",
     "observer": "示例志愿者J",
     "observerId": "9010",
@@ -4127,6 +4777,12 @@
   {
     "id": "DEMO:VOL:BATCH:0015",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0067_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0067_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0067_1.jpg"
+    ],
     "originalFilename": "demo_batch_0067_1.jpg",
     "observer": "示例志愿者L",
     "observerId": "9012",
@@ -4170,6 +4826,12 @@
   {
     "id": "DEMO:VOL:BATCH:0015",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0068_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0068_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0068_1.jpg"
+    ],
     "originalFilename": "demo_batch_0068_1.jpg",
     "observer": "示例志愿者L",
     "observerId": "9012",
@@ -4213,6 +4875,12 @@
   {
     "id": "DEMO:VOL:BATCH:0015",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0069_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0069_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0069_1.jpg"
+    ],
     "originalFilename": "demo_batch_0069_1.jpg",
     "observer": "示例志愿者E",
     "observerId": "9005",
@@ -4256,6 +4924,12 @@
   {
     "id": "DEMO:VOL:BATCH:0015",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0070_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0070_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0070_1.jpg"
+    ],
     "originalFilename": "demo_batch_0070_1.jpg",
     "observer": "示例志愿者L",
     "observerId": "9012",
@@ -4299,6 +4973,12 @@
   {
     "id": "DEMO:VOL:BATCH:0016",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0071_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0071_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0071_1.jpg"
+    ],
     "originalFilename": "demo_batch_0071_1.jpg",
     "observer": "示例志愿者M",
     "observerId": "9013",
@@ -4342,6 +5022,12 @@
   {
     "id": "DEMO:VOL:BATCH:0016",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0072_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0072_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0072_1.jpg"
+    ],
     "originalFilename": "demo_batch_0072_1.jpg",
     "observer": "示例志愿者I",
     "observerId": "9009",
@@ -4385,6 +5071,12 @@
   {
     "id": "DEMO:VOL:BATCH:0016",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0073_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0073_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0073_1.jpg"
+    ],
     "originalFilename": "demo_batch_0073_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -4427,7 +5119,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0016",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0074_1.jpg,https://example.org/demo-media/volunteer/batch_0074_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0074_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0074_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0074_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0074_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0074_2.jpg"
+    ],
     "originalFilename": "demo_batch_0074_1.jpg,demo_batch_0074_2.jpg",
     "observer": "示例志愿者G",
     "observerId": "9007",
@@ -4471,6 +5171,12 @@
   {
     "id": "DEMO:VOL:BATCH:0017",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0075_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0075_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0075_1.jpg"
+    ],
     "originalFilename": "demo_batch_0075_1.jpg",
     "observer": "示例志愿者M",
     "observerId": "9013",
@@ -4514,6 +5220,12 @@
   {
     "id": "DEMO:VOL:BATCH:0017",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0076_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0076_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0076_1.jpg"
+    ],
     "originalFilename": "demo_batch_0076_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -4557,6 +5269,12 @@
   {
     "id": "DEMO:VOL:BATCH:0017",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0077_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0077_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0077_1.jpg"
+    ],
     "originalFilename": "demo_batch_0077_1.jpg",
     "observer": "示例志愿者L",
     "observerId": "9012",
@@ -4600,6 +5318,12 @@
   {
     "id": "DEMO:VOL:BATCH:0017",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0078_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0078_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0078_1.jpg"
+    ],
     "originalFilename": "demo_batch_0078_1.jpg",
     "observer": "示例志愿者O",
     "observerId": "9015",
@@ -4643,6 +5367,12 @@
   {
     "id": "DEMO:VOL:BATCH:0018",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0079_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0079_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0079_1.jpg"
+    ],
     "originalFilename": "demo_batch_0079_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -4686,6 +5416,12 @@
   {
     "id": "DEMO:VOL:BATCH:0018",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0080_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0080_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0080_1.jpg"
+    ],
     "originalFilename": "demo_batch_0080_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -4729,6 +5465,12 @@
   {
     "id": "DEMO:VOL:BATCH:0018",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0081_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0081_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0081_1.jpg"
+    ],
     "originalFilename": "demo_batch_0081_1.jpg",
     "observer": "示例志愿者D",
     "observerId": "9004",
@@ -4772,6 +5514,12 @@
   {
     "id": "DEMO:VOL:BATCH:0018",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0082_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0082_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0082_1.jpg"
+    ],
     "originalFilename": "demo_batch_0082_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -4814,7 +5562,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0019",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0083_1.jpg,https://example.org/demo-media/volunteer/batch_0083_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0083_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0083_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0083_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0083_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0083_2.jpg"
+    ],
     "originalFilename": "demo_batch_0083_1.jpg,demo_batch_0083_2.jpg",
     "observer": "示例志愿者M",
     "observerId": "9013",
@@ -4858,6 +5614,12 @@
   {
     "id": "DEMO:VOL:BATCH:0019",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0084_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0084_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0084_1.jpg"
+    ],
     "originalFilename": "demo_batch_0084_1.jpg",
     "observer": "示例志愿者O",
     "observerId": "9015",
@@ -4901,6 +5663,12 @@
   {
     "id": "DEMO:VOL:BATCH:0019",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0085_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0085_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0085_1.jpg"
+    ],
     "originalFilename": "demo_batch_0085_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -4944,6 +5712,12 @@
   {
     "id": "DEMO:VOL:BATCH:0019",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0086_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0086_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0086_1.jpg"
+    ],
     "originalFilename": "demo_batch_0086_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -4987,6 +5761,12 @@
   {
     "id": "DEMO:VOL:BATCH:0020",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0087_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0087_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0087_1.jpg"
+    ],
     "originalFilename": "demo_batch_0087_1.jpg",
     "observer": "示例志愿者N",
     "observerId": "9014",
@@ -5030,6 +5810,12 @@
   {
     "id": "DEMO:VOL:BATCH:0020",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0088_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0088_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0088_1.jpg"
+    ],
     "originalFilename": "demo_batch_0088_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -5073,6 +5859,12 @@
   {
     "id": "DEMO:VOL:BATCH:0020",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0089_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0089_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0089_1.jpg"
+    ],
     "originalFilename": "demo_batch_0089_1.jpg",
     "observer": "示例志愿者L",
     "observerId": "9012",
@@ -5116,6 +5908,12 @@
   {
     "id": "DEMO:VOL:BATCH:0020",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0090_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0090_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0090_1.jpg"
+    ],
     "originalFilename": "demo_batch_0090_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -5159,6 +5957,12 @@
   {
     "id": "DEMO:VOL:BATCH:0021",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0091_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0091_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0091_1.jpg"
+    ],
     "originalFilename": "demo_batch_0091_1.jpg",
     "observer": "示例志愿者E",
     "observerId": "9005",
@@ -5201,7 +6005,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0021",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0092_1.jpg,https://example.org/demo-media/volunteer/batch_0092_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0092_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0092_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0092_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0092_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0092_2.jpg"
+    ],
     "originalFilename": "demo_batch_0092_1.jpg,demo_batch_0092_2.jpg",
     "observer": "示例志愿者M",
     "observerId": "9013",
@@ -5245,6 +6057,12 @@
   {
     "id": "DEMO:VOL:BATCH:0021",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0093_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0093_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0093_1.jpg"
+    ],
     "originalFilename": "demo_batch_0093_1.jpg",
     "observer": "示例志愿者L",
     "observerId": "9012",
@@ -5288,6 +6106,12 @@
   {
     "id": "DEMO:VOL:BATCH:0021",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0094_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0094_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0094_1.jpg"
+    ],
     "originalFilename": "demo_batch_0094_1.jpg",
     "observer": "示例志愿者J",
     "observerId": "9010",
@@ -5331,6 +6155,12 @@
   {
     "id": "DEMO:VOL:BATCH:0022",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0095_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0095_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0095_1.jpg"
+    ],
     "originalFilename": "demo_batch_0095_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -5374,6 +6204,12 @@
   {
     "id": "DEMO:VOL:BATCH:0022",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0096_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0096_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0096_1.jpg"
+    ],
     "originalFilename": "demo_batch_0096_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -5417,6 +6253,12 @@
   {
     "id": "DEMO:VOL:BATCH:0022",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0097_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0097_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0097_1.jpg"
+    ],
     "originalFilename": "demo_batch_0097_1.jpg",
     "observer": "示例志愿者N",
     "observerId": "9014",
@@ -5460,6 +6302,12 @@
   {
     "id": "DEMO:VOL:BATCH:0022",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0098_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0098_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0098_1.jpg"
+    ],
     "originalFilename": "demo_batch_0098_1.jpg",
     "observer": "示例志愿者F",
     "observerId": "9006",
@@ -5503,6 +6351,12 @@
   {
     "id": "DEMO:VOL:BATCH:0023",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0099_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0099_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0099_1.jpg"
+    ],
     "originalFilename": "demo_batch_0099_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -5546,6 +6400,12 @@
   {
     "id": "DEMO:VOL:BATCH:0023",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0100_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0100_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0100_1.jpg"
+    ],
     "originalFilename": "demo_batch_0100_1.jpg",
     "observer": "示例志愿者G",
     "observerId": "9007",
@@ -5588,7 +6448,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0023",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0101_1.jpg,https://example.org/demo-media/volunteer/batch_0101_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0101_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0101_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0101_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0101_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0101_2.jpg"
+    ],
     "originalFilename": "demo_batch_0101_1.jpg,demo_batch_0101_2.jpg",
     "observer": "示例志愿者O",
     "observerId": "9015",
@@ -5632,6 +6500,12 @@
   {
     "id": "DEMO:VOL:BATCH:0023",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0102_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0102_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0102_1.jpg"
+    ],
     "originalFilename": "demo_batch_0102_1.jpg",
     "observer": "示例志愿者J",
     "observerId": "9010",
@@ -5675,6 +6549,12 @@
   {
     "id": "DEMO:VOL:BATCH:0024",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0103_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0103_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0103_1.jpg"
+    ],
     "originalFilename": "demo_batch_0103_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -5718,6 +6598,12 @@
   {
     "id": "DEMO:VOL:BATCH:0024",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0104_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0104_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0104_1.jpg"
+    ],
     "originalFilename": "demo_batch_0104_1.jpg",
     "observer": "示例志愿者N",
     "observerId": "9014",
@@ -5761,6 +6647,12 @@
   {
     "id": "DEMO:VOL:BATCH:0024",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0105_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0105_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0105_1.jpg"
+    ],
     "originalFilename": "demo_batch_0105_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -5804,6 +6696,12 @@
   {
     "id": "DEMO:VOL:BATCH:0024",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0106_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0106_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0106_1.jpg"
+    ],
     "originalFilename": "demo_batch_0106_1.jpg",
     "observer": "示例志愿者M",
     "observerId": "9013",
@@ -5847,6 +6745,12 @@
   {
     "id": "DEMO:VOL:BATCH:0025",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0107_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0107_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0107_1.jpg"
+    ],
     "originalFilename": "demo_batch_0107_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -5890,6 +6794,12 @@
   {
     "id": "DEMO:VOL:BATCH:0025",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0108_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0108_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0108_1.jpg"
+    ],
     "originalFilename": "demo_batch_0108_1.jpg",
     "observer": "示例志愿者J",
     "observerId": "9010",
@@ -5933,6 +6843,12 @@
   {
     "id": "DEMO:VOL:BATCH:0025",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0109_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0109_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0109_1.jpg"
+    ],
     "originalFilename": "demo_batch_0109_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -5975,7 +6891,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0025",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0110_1.jpg,https://example.org/demo-media/volunteer/batch_0110_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0110_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0110_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0110_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0110_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0110_2.jpg"
+    ],
     "originalFilename": "demo_batch_0110_1.jpg,demo_batch_0110_2.jpg",
     "observer": "示例志愿者O",
     "observerId": "9015",
@@ -6019,6 +6943,12 @@
   {
     "id": "DEMO:VOL:BATCH:0026",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0111_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0111_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0111_1.jpg"
+    ],
     "originalFilename": "demo_batch_0111_1.jpg",
     "observer": "示例志愿者D",
     "observerId": "9004",
@@ -6062,6 +6992,12 @@
   {
     "id": "DEMO:VOL:BATCH:0026",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0112_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0112_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0112_1.jpg"
+    ],
     "originalFilename": "demo_batch_0112_1.jpg",
     "observer": "示例志愿者L",
     "observerId": "9012",
@@ -6105,6 +7041,12 @@
   {
     "id": "DEMO:VOL:BATCH:0026",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0113_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0113_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0113_1.jpg"
+    ],
     "originalFilename": "demo_batch_0113_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -6148,6 +7090,12 @@
   {
     "id": "DEMO:VOL:BATCH:0026",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0114_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0114_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0114_1.jpg"
+    ],
     "originalFilename": "demo_batch_0114_1.jpg",
     "observer": "示例志愿者K",
     "observerId": "9011",
@@ -6191,6 +7139,12 @@
   {
     "id": "DEMO:VOL:BATCH:0027",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0115_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0115_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0115_1.jpg"
+    ],
     "originalFilename": "demo_batch_0115_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -6234,6 +7188,12 @@
   {
     "id": "DEMO:VOL:BATCH:0027",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0116_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0116_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0116_1.jpg"
+    ],
     "originalFilename": "demo_batch_0116_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -6277,6 +7237,12 @@
   {
     "id": "DEMO:VOL:BATCH:0027",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0117_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0117_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0117_1.jpg"
+    ],
     "originalFilename": "demo_batch_0117_1.jpg",
     "observer": "示例志愿者M",
     "observerId": "9013",
@@ -6320,6 +7286,12 @@
   {
     "id": "DEMO:VOL:BATCH:0027",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0118_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0118_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0118_1.jpg"
+    ],
     "originalFilename": "demo_batch_0118_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -6362,7 +7334,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0028",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0119_1.jpg,https://example.org/demo-media/volunteer/batch_0119_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0119_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0119_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0119_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0119_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0119_2.jpg"
+    ],
     "originalFilename": "demo_batch_0119_1.jpg,demo_batch_0119_2.jpg",
     "observer": "示例志愿者F",
     "observerId": "9006",
@@ -6406,6 +7386,12 @@
   {
     "id": "DEMO:VOL:BATCH:0028",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0120_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0120_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0120_1.jpg"
+    ],
     "originalFilename": "demo_batch_0120_1.jpg",
     "observer": "示例志愿者J",
     "observerId": "9010",
@@ -6449,6 +7435,12 @@
   {
     "id": "DEMO:VOL:BATCH:0028",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0121_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0121_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0121_1.jpg"
+    ],
     "originalFilename": "demo_batch_0121_1.jpg",
     "observer": "示例志愿者J",
     "observerId": "9010",
@@ -6492,6 +7484,12 @@
   {
     "id": "DEMO:VOL:BATCH:0028",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0122_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0122_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0122_1.jpg"
+    ],
     "originalFilename": "demo_batch_0122_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -6535,6 +7533,12 @@
   {
     "id": "DEMO:VOL:BATCH:0029",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0123_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0123_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0123_1.jpg"
+    ],
     "originalFilename": "demo_batch_0123_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -6578,6 +7582,12 @@
   {
     "id": "DEMO:VOL:BATCH:0029",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0124_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0124_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0124_1.jpg"
+    ],
     "originalFilename": "demo_batch_0124_1.jpg",
     "observer": "示例志愿者M",
     "observerId": "9013",
@@ -6621,6 +7631,12 @@
   {
     "id": "DEMO:VOL:BATCH:0029",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0125_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0125_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0125_1.jpg"
+    ],
     "originalFilename": "demo_batch_0125_1.jpg",
     "observer": "示例志愿者L",
     "observerId": "9012",
@@ -6664,6 +7680,12 @@
   {
     "id": "DEMO:VOL:BATCH:0029",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0126_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0126_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0126_1.jpg"
+    ],
     "originalFilename": "demo_batch_0126_1.jpg",
     "observer": "示例志愿者H",
     "observerId": "9008",
@@ -6707,6 +7729,12 @@
   {
     "id": "DEMO:VOL:BATCH:0030",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0127_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0127_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0127_1.jpg"
+    ],
     "originalFilename": "demo_batch_0127_1.jpg",
     "observer": "示例志愿者E",
     "observerId": "9005",
@@ -6749,7 +7777,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0030",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0128_1.jpg,https://example.org/demo-media/volunteer/batch_0128_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0128_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0128_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0128_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0128_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0128_2.jpg"
+    ],
     "originalFilename": "demo_batch_0128_1.jpg,demo_batch_0128_2.jpg",
     "observer": "示例志愿者K",
     "observerId": "9011",
@@ -6793,6 +7829,12 @@
   {
     "id": "DEMO:VOL:BATCH:0030",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0129_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0129_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0129_1.jpg"
+    ],
     "originalFilename": "demo_batch_0129_1.jpg",
     "observer": "示例志愿者O",
     "observerId": "9015",
@@ -6836,6 +7878,12 @@
   {
     "id": "DEMO:VOL:BATCH:0030",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0130_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0130_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0130_1.jpg"
+    ],
     "originalFilename": "demo_batch_0130_1.jpg",
     "observer": "示例志愿者K",
     "observerId": "9011",
@@ -6879,6 +7927,12 @@
   {
     "id": "DEMO:VOL:BATCH:0031",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0131_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0131_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0131_1.jpg"
+    ],
     "originalFilename": "demo_batch_0131_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -6922,6 +7976,12 @@
   {
     "id": "DEMO:VOL:BATCH:0031",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0132_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0132_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0132_1.jpg"
+    ],
     "originalFilename": "demo_batch_0132_1.jpg",
     "observer": "示例志愿者J",
     "observerId": "9010",
@@ -6965,6 +8025,12 @@
   {
     "id": "DEMO:VOL:BATCH:0031",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0133_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0133_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0133_1.jpg"
+    ],
     "originalFilename": "demo_batch_0133_1.jpg",
     "observer": "示例志愿者J",
     "observerId": "9010",
@@ -7008,6 +8074,12 @@
   {
     "id": "DEMO:VOL:BATCH:0031",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0134_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0134_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0134_1.jpg"
+    ],
     "originalFilename": "demo_batch_0134_1.jpg",
     "observer": "示例志愿者J",
     "observerId": "9010",
@@ -7051,6 +8123,12 @@
   {
     "id": "DEMO:VOL:BATCH:0032",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0135_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0135_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0135_1.jpg"
+    ],
     "originalFilename": "demo_batch_0135_1.jpg",
     "observer": "示例志愿者N",
     "observerId": "9014",
@@ -7094,6 +8172,12 @@
   {
     "id": "DEMO:VOL:BATCH:0032",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0136_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0136_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0136_1.jpg"
+    ],
     "originalFilename": "demo_batch_0136_1.jpg",
     "observer": "示例志愿者J",
     "observerId": "9010",
@@ -7136,7 +8220,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0032",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0137_1.jpg,https://example.org/demo-media/volunteer/batch_0137_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0137_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0137_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0137_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0137_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0137_2.jpg"
+    ],
     "originalFilename": "demo_batch_0137_1.jpg,demo_batch_0137_2.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -7180,6 +8272,12 @@
   {
     "id": "DEMO:VOL:BATCH:0032",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0138_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0138_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0138_1.jpg"
+    ],
     "originalFilename": "demo_batch_0138_1.jpg",
     "observer": "示例志愿者K",
     "observerId": "9011",
@@ -7223,6 +8321,12 @@
   {
     "id": "DEMO:VOL:BATCH:0033",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0139_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0139_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0139_1.jpg"
+    ],
     "originalFilename": "demo_batch_0139_1.jpg",
     "observer": "示例志愿者G",
     "observerId": "9007",
@@ -7266,6 +8370,12 @@
   {
     "id": "DEMO:VOL:BATCH:0033",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0140_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0140_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0140_1.jpg"
+    ],
     "originalFilename": "demo_batch_0140_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -7309,6 +8419,12 @@
   {
     "id": "DEMO:VOL:BATCH:0033",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0141_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0141_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0141_1.jpg"
+    ],
     "originalFilename": "demo_batch_0141_1.jpg",
     "observer": "示例志愿者L",
     "observerId": "9012",
@@ -7352,6 +8468,12 @@
   {
     "id": "DEMO:VOL:BATCH:0033",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0142_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0142_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0142_1.jpg"
+    ],
     "originalFilename": "demo_batch_0142_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -7395,6 +8517,12 @@
   {
     "id": "DEMO:VOL:BATCH:0034",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0143_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0143_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0143_1.jpg"
+    ],
     "originalFilename": "demo_batch_0143_1.jpg",
     "observer": "示例志愿者I",
     "observerId": "9009",
@@ -7438,6 +8566,12 @@
   {
     "id": "DEMO:VOL:BATCH:0034",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0144_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0144_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0144_1.jpg"
+    ],
     "originalFilename": "demo_batch_0144_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -7481,6 +8615,12 @@
   {
     "id": "DEMO:VOL:BATCH:0034",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0145_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0145_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0145_1.jpg"
+    ],
     "originalFilename": "demo_batch_0145_1.jpg",
     "observer": "示例志愿者J",
     "observerId": "9010",
@@ -7523,7 +8663,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0034",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0146_1.jpg,https://example.org/demo-media/volunteer/batch_0146_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0146_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0146_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0146_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0146_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0146_2.jpg"
+    ],
     "originalFilename": "demo_batch_0146_1.jpg,demo_batch_0146_2.jpg",
     "observer": "示例志愿者K",
     "observerId": "9011",
@@ -7567,6 +8715,12 @@
   {
     "id": "DEMO:VOL:BATCH:0035",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0147_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0147_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0147_1.jpg"
+    ],
     "originalFilename": "demo_batch_0147_1.jpg",
     "observer": "示例志愿者K",
     "observerId": "9011",
@@ -7610,6 +8764,12 @@
   {
     "id": "DEMO:VOL:BATCH:0035",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0148_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0148_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0148_1.jpg"
+    ],
     "originalFilename": "demo_batch_0148_1.jpg",
     "observer": "示例志愿者C",
     "observerId": "9003",
@@ -7653,6 +8813,12 @@
   {
     "id": "DEMO:VOL:BATCH:0035",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0149_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0149_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0149_1.jpg"
+    ],
     "originalFilename": "demo_batch_0149_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -7696,6 +8862,12 @@
   {
     "id": "DEMO:VOL:BATCH:0035",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0150_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0150_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0150_1.jpg"
+    ],
     "originalFilename": "demo_batch_0150_1.jpg",
     "observer": "示例志愿者J",
     "observerId": "9010",
@@ -7739,6 +8911,12 @@
   {
     "id": "DEMO:VOL:BATCH:0036",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0151_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0151_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0151_1.jpg"
+    ],
     "originalFilename": "demo_batch_0151_1.jpg",
     "observer": "示例志愿者O",
     "observerId": "9015",
@@ -7782,6 +8960,12 @@
   {
     "id": "DEMO:VOL:BATCH:0036",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0152_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0152_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0152_1.jpg"
+    ],
     "originalFilename": "demo_batch_0152_1.jpg",
     "observer": "示例志愿者K",
     "observerId": "9011",
@@ -7825,6 +9009,12 @@
   {
     "id": "DEMO:VOL:BATCH:0036",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0153_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0153_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0153_1.jpg"
+    ],
     "originalFilename": "demo_batch_0153_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -7868,6 +9058,12 @@
   {
     "id": "DEMO:VOL:BATCH:0036",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0154_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0154_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0154_1.jpg"
+    ],
     "originalFilename": "demo_batch_0154_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -7910,7 +9106,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0037",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0155_1.jpg,https://example.org/demo-media/volunteer/batch_0155_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0155_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0155_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0155_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0155_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0155_2.jpg"
+    ],
     "originalFilename": "demo_batch_0155_1.jpg,demo_batch_0155_2.jpg",
     "observer": "示例志愿者N",
     "observerId": "9014",
@@ -7954,6 +9158,12 @@
   {
     "id": "DEMO:VOL:BATCH:0037",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0156_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0156_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0156_1.jpg"
+    ],
     "originalFilename": "demo_batch_0156_1.jpg",
     "observer": "示例志愿者D",
     "observerId": "9004",
@@ -7997,6 +9207,12 @@
   {
     "id": "DEMO:VOL:BATCH:0037",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0157_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0157_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0157_1.jpg"
+    ],
     "originalFilename": "demo_batch_0157_1.jpg",
     "observer": "示例志愿者K",
     "observerId": "9011",
@@ -8040,6 +9256,12 @@
   {
     "id": "DEMO:VOL:BATCH:0037",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0158_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0158_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0158_1.jpg"
+    ],
     "originalFilename": "demo_batch_0158_1.jpg",
     "observer": "示例志愿者M",
     "observerId": "9013",
@@ -8083,6 +9305,12 @@
   {
     "id": "DEMO:VOL:BATCH:0038",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0159_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0159_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0159_1.jpg"
+    ],
     "originalFilename": "demo_batch_0159_1.jpg",
     "observer": "示例志愿者O",
     "observerId": "9015",
@@ -8126,6 +9354,12 @@
   {
     "id": "DEMO:VOL:BATCH:0038",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0160_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0160_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0160_1.jpg"
+    ],
     "originalFilename": "demo_batch_0160_1.jpg",
     "observer": "示例志愿者N",
     "observerId": "9014",
@@ -8169,6 +9403,12 @@
   {
     "id": "DEMO:VOL:BATCH:0038",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0161_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0161_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0161_1.jpg"
+    ],
     "originalFilename": "demo_batch_0161_1.jpg",
     "observer": "示例志愿者M",
     "observerId": "9013",
@@ -8212,6 +9452,12 @@
   {
     "id": "DEMO:VOL:BATCH:0038",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0162_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0162_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0162_1.jpg"
+    ],
     "originalFilename": "demo_batch_0162_1.jpg",
     "observer": "示例志愿者A",
     "observerId": "9001",
@@ -8255,6 +9501,12 @@
   {
     "id": "DEMO:VOL:BATCH:0039",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0163_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0163_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0163_1.jpg"
+    ],
     "originalFilename": "demo_batch_0163_1.jpg",
     "observer": "示例志愿者J",
     "observerId": "9010",
@@ -8297,7 +9549,15 @@
   },
   {
     "id": "DEMO:VOL:BATCH:0039",
-    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0164_1.jpg,https://example.org/demo-media/volunteer/batch_0164_2.jpg",
+    "mediaUrl": "https://example.org/demo-media/volunteer/batch_0164_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0164_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0164_2.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0164_1.jpg",
+      "https://example.org/demo-media/volunteer/batch_0164_2.jpg"
+    ],
     "originalFilename": "demo_batch_0164_1.jpg,demo_batch_0164_2.jpg",
     "observer": "示例志愿者N",
     "observerId": "9014",
@@ -8341,6 +9601,12 @@
   {
     "id": "DEMO:VOL:BATCH:0039",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0165_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0165_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0165_1.jpg"
+    ],
     "originalFilename": "demo_batch_0165_1.jpg",
     "observer": "示例志愿者M",
     "observerId": "9013",
@@ -8384,6 +9650,12 @@
   {
     "id": "DEMO:VOL:BATCH:0039",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0166_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0166_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0166_1.jpg"
+    ],
     "originalFilename": "demo_batch_0166_1.jpg",
     "observer": "示例志愿者B",
     "observerId": "9002",
@@ -8427,6 +9699,12 @@
   {
     "id": "DEMO:VOL:BATCH:0040",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0167_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0167_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0167_1.jpg"
+    ],
     "originalFilename": "demo_batch_0167_1.jpg",
     "observer": "示例志愿者L",
     "observerId": "9012",
@@ -8470,6 +9748,12 @@
   {
     "id": "DEMO:VOL:BATCH:0040",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0168_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0168_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0168_1.jpg"
+    ],
     "originalFilename": "demo_batch_0168_1.jpg",
     "observer": "示例志愿者O",
     "observerId": "9015",
@@ -8513,6 +9797,12 @@
   {
     "id": "DEMO:VOL:BATCH:0040",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0169_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0169_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0169_1.jpg"
+    ],
     "originalFilename": "demo_batch_0169_1.jpg",
     "observer": "示例志愿者K",
     "observerId": "9011",
@@ -8556,6 +9846,12 @@
   {
     "id": "DEMO:VOL:BATCH:0040",
     "mediaUrl": "https://example.org/demo-media/volunteer/batch_0170_1.jpg",
+    "mediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0170_1.jpg"
+    ],
+    "sourceMediaUrls": [
+      "https://example.org/demo-media/volunteer/batch_0170_1.jpg"
+    ],
     "originalFilename": "demo_batch_0170_1.jpg",
     "observer": "示例志愿者I",
     "observerId": "9009",

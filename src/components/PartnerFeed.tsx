@@ -1,6 +1,7 @@
 import { Camera, MapPin, Sparkles } from "lucide-react";
 import type { Observation } from "../lib/types";
 import { formatDate, formatDateTime } from "../lib/observations";
+import { ObservationImage } from "./ObservationImage";
 
 type PartnerFeedProps = {
   recent: Observation[];
@@ -41,18 +42,7 @@ export function PartnerFeed({ recent, cities, stories }: PartnerFeedProps) {
           {recent.map((record, index) => (
             <article className="activity-row" key={`${record.id}-${record.eventDate}-${index}`}>
               <div className="thumb">
-                {record.mediaUrl ? (
-                  <img
-                    src={record.mediaUrl}
-                    alt={record.chineseName ?? "观察照片"}
-                    loading="lazy"
-                    onError={(e) => {
-                      e.currentTarget.style.display = "none";
-                    }}
-                  />
-                ) : (
-                  thumbEmoji(record.chineseName ?? "")
-                )}
+                <ObservationImage record={record} fallback={thumbEmoji(record.chineseName ?? "")} />
               </div>
               <div className="body">
                 <strong>{record.observer ?? "匿名志愿者"}</strong>
@@ -118,17 +108,7 @@ export function PartnerFeed({ recent, cities, stories }: PartnerFeedProps) {
             {stories.map((story, idx) => (
               <article className="story-card" key={`${story.plant}-${story.pollinator}-${idx}`}>
                 <div className="story-thumb">
-                  {story.mediaUrl ? (
-                    <img
-                      src={story.mediaUrl}
-                      alt={story.plant}
-                      onError={(e) => {
-                        e.currentTarget.style.display = "none";
-                      }}
-                    />
-                  ) : (
-                    thumbEmoji(story.plant)
-                  )}
+                  {story.mediaUrl ? <img src={story.mediaUrl} alt={story.plant} /> : thumbEmoji(story.plant)}
                 </div>
                 <div>
                   <h4>

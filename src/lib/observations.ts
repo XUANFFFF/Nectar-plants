@@ -1,14 +1,31 @@
 import type {
+  CitySummary,
   GardenGroup,
   Observation,
   ObserverContribution,
   PlantSummary,
 } from "./types";
+import { normalizeCityName } from "./cityBoundaries";
 
 const collator = new Intl.Collator("zh-Hans-CN");
 const dayMs = 24 * 60 * 60 * 1000;
 
 export type GardenLayer = "all" | "wild" | "cultivated" | "recent";
+
+export function getPrimaryMediaUrl(record: Pick<Observation, "mediaUrl" | "mediaUrls">): string | null {
+  return record.mediaUrls[0] ?? record.mediaUrl ?? null;
+}
+
+function hasCachedMedia(record: Pick<Observation, "mediaUrl" | "mediaUrls">): boolean {
+  return getPrimaryMediaUrl(record)?.startsWith("/media/") ?? false;
+}
+
+function bestImageFirst(a: Observation, b: Observation): number {
+  const aHasMedia = hasCachedMedia(a);
+  const bHasMedia = hasCachedMedia(b);
+  if (aHasMedia !== bHasMedia) return aHasMedia ? -1 : 1;
+  return newestFirst(a, b);
+}
 
 function uniqueSorted(values: Array<string | null | undefined>): string[] {
   return [...new Set(values.filter((v): v is string => Boolean(v)))].sort((a, b) =>
@@ -111,7 +128,7 @@ export function getPlantSummaries(records: Observation[]): PlantSummary[] {
   return [...grouped.entries()]
     .map(([chineseName, group]) => {
       const sorted = [...group].sort(newestFirst);
-      const rep = sorted[0];
+      const rep = [...group].sort(bestImageFirst)[0];
       return {
         chineseName,
         scientificName: rep.scientificName ?? "—",
@@ -199,6 +216,99 @@ export function getCitySpotlights(records: Observation[]): Array<{
     .sort((a, b) => b.recordCount - a.recordCount);
 }
 
+export function filterGardensByCity(gardens: GardenGroup[], cityKey: string | null): GardenGroup[] {
+  if (!cityKey) return gardens;
+  return gardens.filter((garden) => normalizeCityName(garden.city) === cityKey);
+}
+
+export function buildCitySummaries(gardens: GardenGroup[]): CitySummary[] {
+  const grouped = new Map<
+    string,
+    {
+      cityLabel: string;
+      recordCount: number;
+      gardenCount: number;
+      species: Set<string>;
+      counties: Map<string, number>;
+      plants: Map<string, number>;
+      latestObservationDate: string | null;
+    }
+  >();
+
+  for (const garden of gardens) {
+    const cityKey = normalizeCityName(garden.city);
+    const current =
+      grouped.get(cityKey) ??
+      {
+        cityLabel: garden.city,
+        recordCount: 0,
+        gardenCount: 0,
+        species: new Set<string>(),
+        counties: new Map<string, number>(),
+        plants: new Map<string, number>(),
+        latestObservationDate: null,
+      };
+
+    current.cityLabel = pickCityLabel(current.cityLabel, garden.city);
+    current.recordCount += garden.recordCount;
+    current.gardenCount += 1;
+    current.counties.set(garden.county, (current.counties.get(garden.county) ?? 0) + garden.recordCount);
+
+    for (const plant of garden.plantNames) {
+      current.species.add(plant);
+    }
+    for (const observation of garden.observations) {
+      const plant = observation.chineseName ?? "未识别物种";
+      current.plants.set(plant, (current.plants.get(plant) ?? 0) + 1);
+      current.latestObservationDate = latestDate(current.latestObservationDate, observation.eventDate);
+    }
+
+    grouped.set(cityKey, current);
+  }
+
+  return [...grouped.entries()]
+    .map(([cityKey, value]) => ({
+      cityKey,
+      cityLabel: value.cityLabel,
+      recordCount: value.recordCount,
+      gardenCount: value.gardenCount,
+      speciesCount: value.species.size,
+      countyCount: value.counties.size,
+      topCounties: sortCountMap(value.counties),
+      topPlants: sortCountMap(value.plants),
+      latestObservationDate: value.latestObservationDate,
+    }))
+    .sort((a, b) => b.recordCount - a.recordCount || collator.compare(a.cityLabel, b.cityLabel));
+}
+
+export function buildProvinceSummary(gardens: GardenGroup[]): CitySummary {
+  const citySummaries = buildCitySummaries(gardens);
+  const countyTotals = new Map<string, number>();
+  const plantTotals = new Map<string, number>();
+  let latestObservationDate: string | null = null;
+
+  for (const garden of gardens) {
+    countyTotals.set(garden.county, (countyTotals.get(garden.county) ?? 0) + garden.recordCount);
+    for (const observation of garden.observations) {
+      const plant = observation.chineseName ?? "未识别物种";
+      plantTotals.set(plant, (plantTotals.get(plant) ?? 0) + 1);
+      latestObservationDate = latestDate(latestObservationDate, observation.eventDate);
+    }
+  }
+
+  return {
+    cityKey: "all",
+    cityLabel: "广东省",
+    recordCount: citySummaries.reduce((sum, item) => sum + item.recordCount, 0),
+    gardenCount: gardens.length,
+    speciesCount: new Set(gardens.flatMap((garden) => garden.plantNames)).size,
+    countyCount: countyTotals.size,
+    topCounties: sortCountMap(countyTotals),
+    topPlants: sortCountMap(plantTotals),
+    latestObservationDate,
+  };
+}
+
 export function getFeaturedStories(records: Observation[]): Array<{
   plant: string;
   pollinator: string;
@@ -235,12 +345,30 @@ export function getFeaturedStories(records: Observation[]): Array<{
       county: record.county ?? "—",
       observer: nonNull(record.observer),
       eventDate: record.eventDate,
-      mediaUrl: record.mediaUrl,
+      mediaUrl: getPrimaryMediaUrl(record),
       description: `${plant} 在这里遇到了 ${pollinator}。`,
     });
     if (stories.length >= 6) break;
   }
   return stories;
+}
+
+function sortCountMap(values: Map<string, number>): string[] {
+  return [...values.entries()]
+    .sort((a, b) => b[1] - a[1] || collator.compare(a[0], b[0]))
+    .map(([name]) => name);
+}
+
+function latestDate(current: string | null, next: string | null): string | null {
+  if (!next) return current;
+  if (!current) return next;
+  return new Date(next).getTime() >= new Date(current).getTime() ? next : current;
+}
+
+function pickCityLabel(current: string, next: string): string {
+  if (current.endsWith("市")) return current;
+  if (next.endsWith("市")) return next;
+  return current || next;
 }
 
 export function formatDate(value: string | null | undefined): string {

@@ -1,6 +1,7 @@
 import { Camera, MapPin } from "lucide-react";
 import type { Observation } from "../lib/types";
 import { formatDateTime } from "../lib/observations";
+import { ObservationImage } from "./ObservationImage";
 
 type ActivityFeedProps = {
   records: Observation[];
@@ -24,18 +25,7 @@ export function ActivityFeed({ records, emptyHint }: ActivityFeedProps) {
       {records.map((record, index) => (
         <article className="activity-row" key={`${record.id}-${record.eventDate}-${index}`}>
           <div className="thumb">
-            {record.mediaUrl ? (
-              <img
-                src={record.mediaUrl}
-                alt={record.chineseName ?? "观察照片"}
-                loading="lazy"
-                onError={(e) => {
-                  e.currentTarget.style.display = "none";
-                }}
-              />
-            ) : (
-              thumbLabel(record)
-            )}
+            <ObservationImage record={record} fallback={thumbLabel(record)} />
           </div>
           <div className="body">
             <strong>{record.observer ?? "匿名志愿者"}</strong>

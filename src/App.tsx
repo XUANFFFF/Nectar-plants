@@ -122,10 +122,10 @@ export default function App() {
           <span className="eyebrow">
             <MapPinned size={12} style={{ verticalAlign: "-1px", marginRight: 2 }} /> 蜜源地图
           </span>
-          <h2>到达一个花园，打开它的观察线索</h2>
+          <h2>点开一座城市，看清它的边界与共创热点</h2>
           <p>
-            点击地图点位查看场域信息卡。这里记录的每一种植物与访花昆虫，
-            都来自志愿者的真实上传。
+            点击市级边界查看城市汇总，地图点位会同步筛到该市。
+            每一种植物与访花昆虫都来自志愿者的真实上传。
           </p>
         </div>
         <CommunityMap gardens={gardens} records={records} />

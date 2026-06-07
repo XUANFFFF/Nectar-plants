@@ -1,6 +1,8 @@
 export type Observation = {
   id: string;
   mediaUrl: string | null;
+  mediaUrls: string[];
+  sourceMediaUrls: string[];
   originalFilename: string | null;
   observer: string | null;
   observerId: string | null;
@@ -91,4 +93,16 @@ export type ObserverContribution = {
   plants: string[];
   latestRecords: Observation[];
   badges: string[];
+};
+
+export type CitySummary = {
+  cityKey: string;
+  cityLabel: string;
+  recordCount: number;
+  gardenCount: number;
+  speciesCount: number;
+  countyCount: number;
+  topCounties: string[];
+  topPlants: string[];
+  latestObservationDate: string | null;
 };

@@ -8,6 +8,9 @@
 """
 
 import json
+import ssl
+import urllib.parse
+import urllib.request
 from pathlib import Path
 
 import pandas as pd
@@ -15,6 +18,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "志愿者上传数据_demo虚拟数据_170条_15名志愿者_非均分.xlsx"
 OUT_DIR = ROOT / "src" / "data"
+MEDIA_DIR = ROOT / "public" / "media"
 
 
 def clean(value):
@@ -60,14 +64,42 @@ def split_taxa(value):
     return [part.strip() for part in str(value).split(",") if part.strip()]
 
 
-def split_higher(value):
+def split_media(value):
     if pd.isna(value):
-        return {}
-    text = str(value).strip()
-    if "/" not in text:
-        return {"raw": text}
-    parts = [p.strip() for p in text.split("/") if p.strip()]
-    return {"raw": text, "parts": parts}
+        return []
+    return [part.strip() for part in str(value).split(",") if part.strip()]
+
+
+def media_extension(url):
+    path = urllib.parse.urlparse(url).path
+    suffix = Path(path).suffix.lower()
+    if suffix in {".jpg", ".jpeg", ".png", ".webp"}:
+        return suffix
+    return ".jpg"
+
+
+def download_media(urls, record_id):
+    MEDIA_DIR.mkdir(parents=True, exist_ok=True)
+    local_urls = []
+    context = ssl._create_unverified_context()
+
+    for index, url in enumerate(urls[:3], start=1):
+        if "biogrid.scbg.ac.cn" not in url:
+            continue
+        safe_id = str(record_id or "record").replace(":", "_").replace("/", "_")
+        filename = f"{safe_id}_{index}{media_extension(url)}"
+        target = MEDIA_DIR / filename
+        if not target.exists():
+            try:
+                request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                with urllib.request.urlopen(request, timeout=20, context=context) as response:
+                    target.write_bytes(response.read())
+            except Exception as exc:
+                print("Skipped media", url, exc)
+                continue
+        local_urls.append(f"/media/{filename}")
+
+    return local_urls
 
 
 def main():
@@ -76,10 +108,15 @@ def main():
 
     records = []
     for row in df.to_dict(orient="records"):
+        media_urls = split_media(row["associatedMedia"])
+        record_id = clean(row["occurrenceID"])
+        local_media_urls = download_media(media_urls, record_id)
         records.append(
             {
-                "id": clean(row["occurrenceID"]),
-                "mediaUrl": clean(row["associatedMedia"]),
+                "id": record_id,
+                "mediaUrl": local_media_urls[0] if local_media_urls else (media_urls[0] if media_urls else None),
+                "mediaUrls": local_media_urls or media_urls,
+                "sourceMediaUrls": media_urls,
                 "originalFilename": clean(row["originalFilename"]),
                 "observer": clean_observer(row["recordedBy"]),
                 "observerId": clean(row["recordedByID"]),

@@ -1,6 +1,7 @@
 import { Award, MapPin, Sprout } from "lucide-react";
 import type { ObserverContribution } from "../lib/types";
 import { formatDate } from "../lib/observations";
+import { ObservationImage } from "./ObservationImage";
 
 type MyContributionProps = {
   contribution: ObserverContribution;
@@ -66,15 +67,8 @@ export function MyContribution({ contribution }: MyContributionProps) {
           ) : null}
           {contribution.latestRecords.map((record, index) => (
             <article className="record-card" key={`${record.id}-${record.eventDate}-${index}`}>
-              {record.mediaUrl ? (
-                <img
-                  src={record.mediaUrl}
-                  alt={record.chineseName ?? ""}
-                  loading="lazy"
-                  onError={(e) => {
-                    e.currentTarget.style.display = "none";
-                  }}
-                />
+              {record.mediaUrls.length > 0 || record.mediaUrl ? (
+                <ObservationImage record={record} alt={record.chineseName ?? ""} fallback={thumbEmoji(record.chineseName)} />
               ) : (
                 <div className="photo-fallback">
                   {thumbEmoji(record.chineseName)}

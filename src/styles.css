@@ -377,43 +377,77 @@ img {
 }
 
 .map-stage .city-label {
-  position: absolute;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 700;
   color: var(--ink-soft);
-  letter-spacing: 1.4px;
-  background: rgba(255, 255, 255, 0.7);
-  padding: 3px 10px;
-  border-radius: 999px;
-  border: 1px solid var(--border);
+  letter-spacing: 0.8px;
+  text-anchor: middle;
+  paint-order: stroke;
+  stroke: rgba(255, 255, 255, 0.9);
+  stroke-width: 6px;
+  stroke-linejoin: round;
   pointer-events: none;
+  user-select: none;
+}
+
+.map-stage .city-label.is-dimmed {
+  opacity: 0.45;
+}
+
+.map-stage .boundary-map {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.map-stage .city-boundary {
+  fill: rgba(255, 255, 255, 0.18);
+  stroke: rgba(36, 70, 52, 0.38);
+  stroke-width: 2.8;
+  vector-effect: non-scaling-stroke;
+  cursor: pointer;
+  transition: fill 0.15s, stroke 0.15s, opacity 0.15s;
+}
+
+.map-stage .city-boundary:hover {
+  fill: rgba(244, 201, 93, 0.22);
+  stroke: rgba(36, 70, 52, 0.58);
+}
+
+.map-stage .city-boundary.is-active {
+  fill: rgba(244, 201, 93, 0.34);
+  stroke: #6b4a14;
+}
+
+.map-stage .city-boundary.is-dimmed {
+  opacity: 0.28;
 }
 
 .map-point {
   position: absolute;
-  width: 44px;
-  height: 44px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  background: var(--honey-soft);
-  border: 2px solid #6d8e52;
+  background: rgba(244, 201, 93, 0.44);
+  border: 1.5px solid rgba(84, 126, 75, 0.72);
   color: #21402f;
   display: grid;
   place-items: center;
   font-weight: 700;
-  font-size: 14px;
-  cursor: pointer;
+  font-size: 12px;
+  pointer-events: none;
   transform: translate(-50%, -50%);
-  transition: transform 0.15s, box-shadow 0.15s, background 0.15s;
+  transition: transform 0.15s, box-shadow 0.15s, background 0.15s, opacity 0.15s;
+  opacity: 0.72;
   z-index: 2;
-}
-
-.map-point:hover {
-  transform: translate(-50%, -50%) scale(1.08);
 }
 
 .map-point.is-active {
   background: var(--honey);
-  box-shadow: 0 0 0 8px rgba(244, 201, 93, 0.28);
+  box-shadow: 0 0 0 7px rgba(244, 201, 93, 0.22);
+  opacity: 0.9;
 }
 
 .map-stage .map-legend {
@@ -429,7 +463,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  z-index: 3;
+  z-index: 4;
 }
 
 .map-stage .map-legend .swatch {
@@ -462,7 +496,17 @@ img {
   background: rgba(255, 255, 255, 0.7);
   padding: 4px 12px;
   border-radius: 999px;
-  z-index: 3;
+  z-index: 4;
+}
+
+.city-summary-card .reset-city-button {
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--leaf-deep);
+  border-radius: 12px;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-weight: 600;
 }
 
 .map-filters {
@@ -617,7 +661,8 @@ img {
 /* ===== Plant Guide ===== */
 .plant-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  align-items: stretch;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 16px;
 }
 
@@ -628,8 +673,9 @@ img {
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.15s, box-shadow 0.15s;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 230px 1fr;
+  min-height: 410px;
 }
 
 .plant-card:hover {
@@ -638,14 +684,16 @@ img {
 }
 
 .plant-card .plant-thumb {
-  aspect-ratio: 4 / 3;
   background: linear-gradient(135deg, var(--leaf-soft), var(--honey-soft));
   display: grid;
   place-items: center;
   color: var(--leaf-deep);
   font-size: 18px;
   font-weight: 700;
+  height: 230px;
+  overflow: hidden;
   position: relative;
+  width: 100%;
 }
 
 .plant-card .plant-thumb img {
@@ -654,16 +702,30 @@ img {
   object-fit: cover;
 }
 
+.plant-card .plant-thumb .image-fallback {
+  align-items: center;
+  background: linear-gradient(135deg, var(--leaf-soft), var(--honey-soft));
+  color: var(--leaf-deep);
+  display: flex;
+  font-size: 26px;
+  font-weight: 700;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
 .plant-card .plant-body {
   padding: 14px 16px 18px;
   display: flex;
   flex-direction: column;
   gap: 4px;
+  min-height: 180px;
 }
 
 .plant-card .plant-body h3 {
   margin: 0;
   font-size: 17px;
+  line-height: 1.25;
 }
 
 .plant-card .plant-body .scientific {
@@ -671,15 +733,21 @@ img {
   font-style: italic;
   color: var(--ink-soft);
   font-size: 13px;
+  min-height: 42px;
 }
 
 .plant-card .plant-body .meta {
   display: flex;
+  gap: 10px;
   justify-content: space-between;
   align-items: center;
-  margin-top: 8px;
+  margin-top: auto;
   color: var(--ink-soft);
   font-size: 12px;
+}
+
+.plant-card .plant-body .meta > span:first-child {
+  min-width: 0;
 }
 
 .plant-card .plant-body .meta .badge {
@@ -748,6 +816,18 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.modal .modal-photo .image-fallback {
+  align-items: center;
+  background: linear-gradient(135deg, var(--leaf-soft), var(--honey-soft));
+  color: var(--leaf-deep);
+  display: flex;
+  font-size: 28px;
+  font-weight: 700;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
 }
 
 .modal h2 {
