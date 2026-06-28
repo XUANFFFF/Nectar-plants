@@ -21,13 +21,20 @@
 
 ## 数据实时性说明
 
-**当前状态**：本项目使用 demo 数据集（静态 JSON），并非连接真实实时数据库。
+**当前状态**：本项目支持两种数据模式：
 
-- 数据更新日期：2025-06-01
-- 数据来源：BioGrid 深圳蜜源植物调查 · demo 数据集
-- 页面展示的"数据更新时间"和"审核状态"基于 demo 数据模拟
+1. **静态 demo 模式**（默认）：使用 `src/data/observations.json` 等本地 JSON。
+2. **数据库模式**：启动后端服务后，前台自动从 API 读取数据；API 不可用时回退到本地 JSON。
 
-**后续计划**：已预留数据读取抽象层（`src/lib/data-service.ts`），未来可从 API / 数据库 / BioGrid 导入实时数据，只需替换该模块的实现即可。
+启动数据库模式：`npm run dev:all`（同时启动后端 API 服务器和前端开发服务器）。
+
+### 数据模式切换
+
+前台 `src/lib/data-service.ts` 会自动检测 API 是否可用：
+- API 可用 → 从数据库读取真实数据
+- API 不可用 → 回退到本地静态 JSON
+
+页面数据状态栏和页脚会显示当前数据源。
 
 ## 目标用户
 
@@ -126,11 +133,84 @@
 Excel → Python 脚本 → src/data/observations.json / summary.json → data-service.ts → 前端组件
 ```
 
-数据读取已抽象为 `src/lib/data-service.ts`，提供 `getObservations()`、`getSummary()`、`getMetadata()`、`getVerificationStats()`、`getDataQualityStats()` 等接口。当前使用本地 JSON 作为 fallback，后续可替换为 API 调用：
+数据读取已抽象为 `src/lib/data-service.ts`，提供 `getObservations()`、`getSummary()`、`getMetadata()`、`getVerificationStats()`、`getDataQualityStats()` 等接口。前台优先尝试从 API 读取，失败时回退到本地 JSON：
 
 ```
 API / 数据库 / BioGrid → data-service.ts → 前端组件（无需修改组件代码）
+                                    ↕ (fallback)
+                              src/data/*.json
 ```
+
+## 后端服务与数据导入
+
+### 启动方式
+
+```bash
+# 同时启动后端（端口 3001）和前端（端口 5173）
+npm run dev:all
+
+# 或分别启动：
+npm run dev:server    # 后端 API
+npm run dev           # 前端 Vite
+```
+
+前端 Vite 开发服务器自动代理 `/api/*` 到后端。
+
+### 数据库
+
+使用 **SQLite**（文件位于 `data/nectar.db`），零配置，自动创建。
+
+表结构（`server/schema.sql`）：
+
+- `observations`：观察记录表，包含所有标准化字段
+- `import_batches`：导入批次记录
+- `import_errors`：行级导入错误
+
+### Excel 导入流程
+
+管理后台入口：导航 → "管理"（`#admin`）
+
+流程：
+
+1. 选择 `.xlsx` / `.xls` 文件
+2. 系统解析并返回预览（总行数、有效行、错误行、前 20 条记录、行级错误）
+3. 用户确认导入
+4. 系统去重后批量写入数据库
+5. 前台自动从数据库读取最新数据
+
+### 字段映射
+
+Excel 表头到标准字段的映射配置见 `server/field-mapping.js`。支持中文和英文表头，当前要求至少包含以下必填字段：
+
+- 观察日期 / `event_date`
+- 中文名 / `chinese_name` 或学名 / `scientific_name`
+- 城市 / `city`
+- 观察者 / `observer`
+
+### 去重策略
+
+使用 `source_record_id` 或 `observer + event_date + chinese_name/scientific_name + longitude + latitude + media_url` 生成稳定 hash 进行去重。
+
+### 管理后台权限
+
+当前使用环境变量 `ADMIN_KEY` 进行简单鉴权（默认 `dev-key-change-me`），写入接口需要 `X-Admin-Key` 请求头。生产环境部署前必须增加完整的用户认证系统。
+
+### API 接口列表
+
+| 方法 | 路径 | 说明 | 鉴权 |
+|------|------|------|------|
+| GET | `/api/observations` | 获取观察记录 | 无 |
+| GET | `/api/observations/:id` | 获取单条记录 | 无 |
+| GET | `/api/summary` | 获取聚合统计 | 无 |
+| GET | `/api/metadata` | 获取元数据（更新时间、数据源） | 无 |
+| GET | `/api/verification-stats` | 获取审核统计 | 无 |
+| GET | `/api/data-quality` | 获取数据质量统计 | 无 |
+| POST | `/api/imports/upload` | 上传并解析 Excel | Admin Key |
+| POST | `/api/imports/:id/confirm` | 确认导入 | Admin Key |
+| GET | `/api/imports` | 导入批次列表 | 无（仅查询） |
+| GET | `/api/imports/:id` | 批次详情 | 无（仅查询） |
+| POST | `/api/imports/:id/cancel` | 取消批次 | Admin Key |
+| POST | `/api/sync/observations` | 外部系统同步（预留） | 需鉴权（未实现） |
 
 ## 运行方式
 
