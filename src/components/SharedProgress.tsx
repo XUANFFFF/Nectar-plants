@@ -1,11 +1,4 @@
-import { useState } from "react";
-import {
-  Flower2,
-  MapPinned,
-  Sprout,
-  UsersRound,
-  Waypoints,
-} from "lucide-react";
+import { Flower2, MapPinned, Sprout, UsersRound, Waypoints } from "lucide-react";
 import type { Summary } from "../lib/types";
 
 type SharedProgressProps = {
@@ -45,13 +38,13 @@ export function HeroBlock({ summary, onJumpToMap, onJumpToPlants }: HeroBlockPro
     <section className="hero-band">
       <div className="hero-copy">
         <span className="hero-eyebrow">
-          <Sprout size={14} /> 公众科学 · 城市自然观察
+          <Sprout size={14} /> 公众科学 · 城市生态监测
         </span>
-        <h1>城市蜜源共创地图</h1>
+        <h1>深圳城市绿地传粉动物公民科学项目</h1>
         <p>
-          我们一起点亮城市里的蜜源线索。
-          每一条观察都会进入地图、植物图鉴与场域信息卡，
-          成为城市生态共创的一部分。
+          关注城市传粉动物与蜜源植物。每一条来自志愿者的观察记录，
+          都在帮助我们了解城市生态系统的健康状况。
+          实时数据持续更新，专家解读定期发布。
         </p>
         <div style={{ display: "flex", gap: 10, marginTop: 18 }}>
           <button

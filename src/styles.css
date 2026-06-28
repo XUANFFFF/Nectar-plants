@@ -1120,6 +1120,183 @@ img {
   white-space: nowrap;
 }
 
+/* ===== Data Status Bar ===== */
+.data-status-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  font-size: 13px;
+  color: var(--ink-soft);
+  align-items: center;
+}
+
+.data-status-bar span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* ===== Expert Interpretation ===== */
+.insight-list {
+  display: grid;
+  gap: 16px;
+}
+
+.insight-card {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 22px 26px;
+}
+
+.insight-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.insight-header h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.insight-date {
+  font-size: 12px;
+  color: var(--ink-mute);
+  white-space: nowrap;
+}
+
+.insight-card p {
+  margin: 0;
+  color: var(--ink-soft);
+  line-height: 1.65;
+}
+
+/* ===== Project Achievements ===== */
+.achievement-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.achievement-card {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.achievement-card .achievement-icon {
+  color: var(--leaf);
+}
+
+.achievement-card h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.achievement-card p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.disclaimer-banner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  padding: 12px 16px;
+  background: var(--honey-soft);
+  border: 1px solid rgba(244, 201, 93, 0.4);
+  border-radius: 12px;
+  font-size: 13px;
+  color: #6b4a14;
+}
+
+/* ===== Resource Library ===== */
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.resource-card {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.resource-card .resource-type {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+}
+
+.resource-card .resource-icon {
+  color: var(--leaf);
+}
+
+.resource-card h3 {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.3;
+  padding-right: 60px;
+}
+
+.resource-card p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 13px;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.resource-card .resource-action {
+  margin-top: 6px;
+}
+
+.resource-card .resource-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--leaf-deep);
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.resource-card .resource-placeholder {
+  display: inline-block;
+  color: var(--ink-mute);
+  font-size: 13px;
+  font-style: italic;
+}
+
 /* ===== Footer ===== */
 .app-footer {
   margin-top: 80px;
