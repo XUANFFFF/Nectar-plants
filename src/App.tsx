@@ -1,35 +1,38 @@
 import { useEffect, useMemo, useState } from "react";
-import { MapPinned, Sprout, UserCircle2, Waves } from "lucide-react";
-import observationsRaw from "./data/observations.json";
-import summaryRaw from "./data/summary.json";
-import type { Observation, Summary } from "./lib/types";
+import { AlertTriangle, BookOpen, MapPinned, Sprout, UserCircle2, Waves } from "lucide-react";
 import {
-  buildGardenGroups,
-  getCitySpotlights,
   getContributionForObserver,
   getFeaturedStories,
   getObserverList,
   getPlantSummaries,
   getRecentObservations,
+  buildGardenGroups,
+  getCitySpotlights,
 } from "./lib/observations";
+import { getObservations, getSummary, getMetadata, getVerificationStats, getDataQualityStats } from "./lib/data-service";
 import { HeroBlock } from "./components/SharedProgress";
 import { ActivityFeed } from "./components/ActivityFeed";
 import { CommunityMap } from "./components/CommunityMap";
 import { PlantGuide } from "./components/PlantGuide";
 import { PartnerFeed } from "./components/PartnerFeed";
 import { MyContribution } from "./components/MyContribution";
+import { ExpertInterpretation } from "./components/ExpertInterpretation";
+import { ResourceLibrary } from "./components/ResourceLibrary";
 
-const records = observationsRaw as Observation[];
-const summary = summaryRaw as Summary;
+const records = getObservations();
+const summary = getSummary();
+const metadata = getMetadata();
 
-type SectionKey = "home" | "map" | "plants" | "activity" | "me";
+type SectionKey = "home" | "map" | "plants" | "activity" | "me" | "insights" | "resources";
 
 const sections: Array<{ key: SectionKey; label: string }> = [
-  { key: "home", label: "共创首页" },
-  { key: "map", label: "蜜源地图" },
-  { key: "plants", label: "植物图鉴" },
-  { key: "activity", label: "伙伴动态" },
-  { key: "me", label: "我的贡献" },
+  { key: "home", label: "首页" },
+  { key: "map", label: "地图" },
+  { key: "plants", label: "图鉴" },
+  { key: "activity", label: "动态" },
+  { key: "me", label: "贡献" },
+  { key: "insights", label: "解读" },
+  { key: "resources", label: "资料" },
 ];
 
 export default function App() {
@@ -61,6 +64,9 @@ export default function App() {
     if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
+  const verification = getVerificationStats();
+  const dataQuality = getDataQualityStats();
+
   return (
     <div className="app-shell">
       <nav className="top-nav" aria-label="主导航">
@@ -68,7 +74,7 @@ export default function App() {
           <span className="brand-mark" aria-hidden>
             <Sprout size={16} />
           </span>
-          城市蜜源共创地图
+          深圳城市绿地传粉动物公民科学项目
         </div>
         <div className="nav-links">
           {sections.map((s) => (
@@ -102,10 +108,24 @@ export default function App() {
       <section id="home">
         <HeroBlock
           summary={summary}
-          observerCount={summary.observerCount}
+          observerCount={metadata.observerCount}
           onJumpToMap={() => go("map")}
           onJumpToPlants={() => go("plants")}
         />
+
+        <div className="data-status-bar">
+          <span><Sprout size={12} /> 数据更新时间：{metadata.lastUpdated}</span>
+          <span><Waves size={12} /> 数据来源：{metadata.dataSource}</span>
+          <span title={`已审核 ${verification.verified} 条，待审核 ${verification.pending} 条`}>
+            <BookOpen size={12} /> 审核：{verification.verifiedPercent}% 已审核
+          </span>
+        </div>
+
+        <div className="data-quality-bar">
+          <AlertTriangle size={13} />
+          <span>数据质量：缺图 {dataQuality.noImage} 条、缺经纬度 {dataQuality.noCoords} 条、缺访花关联 {dataQuality.noPollinator} 条。</span>
+          <span>待审核或信息不完整的记录仅用于参与进展展示，不作为正式科学结论。</span>
+        </div>
 
         <div className="section">
           <div className="section-heading">
@@ -170,9 +190,20 @@ export default function App() {
         <MyContribution contribution={contribution} />
       </section>
 
+      <section className="section" id="insights">
+        <ExpertInterpretation />
+      </section>
+
+      <section className="section" id="resources">
+        <ResourceLibrary />
+      </section>
+
       <footer className="app-footer">
-        <span>城市蜜源共创地图 · 共创任务优先 / 生态地图承载 / 个人贡献辅助</span>
-        <span>数据源：志愿者上传数据 demo · 200 条记录 · 19 位共创伙伴 · 25 种蜜源植物</span>
+        <span>深圳城市绿地传粉动物公民科学项目 · 实时展示 / 专家解读 / 公众参与</span>
+        <span>
+          数据更新于 {metadata.lastUpdated} · {metadata.recordCount} 条记录 ·{" "}
+          {verification.verifiedPercent}% 已审核 · 当前为静态 demo 数据
+        </span>
       </footer>
     </div>
   );
