@@ -44,7 +44,7 @@ export function HeroBlock({ summary, onJumpToMap, onJumpToPlants }: HeroBlockPro
         <p>
           关注城市传粉动物与蜜源植物。每一条来自志愿者的观察记录，
           都在帮助我们了解城市生态系统的健康状况。
-          实时数据持续更新，专家解读定期发布。
+          当前展示基于示例数据，平台已预留实时数据接入能力；正式数据源接入后，可持续展示项目进展，专家解读将定期发布。
         </p>
         <div style={{ display: "flex", gap: 10, marginTop: 18 }}>
           <button

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { BookOpen, Download, MapPinned, Sprout, UserCircle2, Waves } from "lucide-react";
+import { AlertTriangle, BookOpen, MapPinned, Sprout, UserCircle2, Waves } from "lucide-react";
 import {
   getContributionForObserver,
   getFeaturedStories,
@@ -119,6 +119,12 @@ export default function App() {
           <span title={`已审核 ${verification.verified} 条，待审核 ${verification.pending} 条`}>
             <BookOpen size={12} /> 审核：{verification.verifiedPercent}% 已审核
           </span>
+        </div>
+
+        <div className="data-quality-bar">
+          <AlertTriangle size={13} />
+          <span>数据质量：缺图 {dataQuality.noImage} 条、缺经纬度 {dataQuality.noCoords} 条、缺访花关联 {dataQuality.noPollinator} 条。</span>
+          <span>待审核或信息不完整的记录仅用于参与进展展示，不作为正式科学结论。</span>
         </div>
 
         <div className="section">

@@ -1141,6 +1141,20 @@ img {
   gap: 5px;
 }
 
+.data-quality-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 10px 16px;
+  background: rgba(255, 248, 216, 0.6);
+  border: 1px solid rgba(244, 201, 93, 0.35);
+  border-radius: 12px;
+  font-size: 13px;
+  color: #6b4a14;
+  align-items: center;
+}
+
 /* ===== Expert Interpretation ===== */
 .insight-list {
   display: grid;
